@@ -218,6 +218,129 @@
 
 \section{Hadron structure}\label{sec:hadstruct}
 
+% Rajan Gupta
+\subsection{Electromagnetic Form Factors}\label{sec:vecff}
+\begin{itemize}
+    \item[Motivation.] The electromagnetic form factors of the nucleons are well measured experimentally from electron 
+      scattering off nuclei.  There is still uncertainty in the calculation of the charge radius of the proton, i.e., 
+      a difference from scattering experiments versus muonic hydrogen.  These data are far more precise compared to 
+      lattice results and for the foreseeable future will provide a benchmark against which to compare lattice reults to 
+      and validate lattice methodology. 
+    \item[Long term goal.] To determine the electromagnetic form factors of the nucleons to match experimental precision. 
+    \item[Method.] First calculate three point functions comprising the insertion of the electromagnetic current
+      with all allowed lattice momentum insertion between the nucleon source and sink operators. During analysis, remove 
+      the excited state contributions from these correlation functions to get ground state matrix elements that are 
+      then decomposed into the desired form factors. The calculation is repeated at multiple values of lattice spacing and 
+      pion mass and the results extrapolated to the physical point. 
+\item[Timeline:]
+    \item[2011--2021] Lattice results showed deviations from the Kelly parameterization of experimental data. 
+    \item[2021] NME results agree with Kelly parameterization of experimental data.
+    \item[2021-2023] Calculations by various groups still show an uncertainty band of $\approx 10\%$.
+    \item[2023-2025] NME and PNDME collaborations to reduce the uncertainty band to 3--5\%
+    \item[2030] EIC expected to start taking data.
+\end{itemize}
+
+% Rajan Gupta
+\subsection{Axial Form Factors}\label{sec:axff}
+\begin{itemize}
+    \item[Motivation.] The axial form factors of the nucleons are not well measured experimentally and are
+      needed to few percent accuracy to calculate the neutrino-nucleus cross-section for experiments such as DUNE, T2K, etc., to 
+      reach their science goals. Large scale simulations of lattice QCD are the current 
+      best method to determine these directly from QCD and the methodology for the 
+      calculations is mature. 
+    \item[Long term goal.] To determine the axial form factors of the nucleons to a few percent 
+    \item[Method.] First calculate three point functions comprising the insertion of the axial vector and pseudoscalar currents 
+      with allowed lattice  momentum insertion between the nucleon source and sink operators. During analysis, remove 
+      the excited state contributions from these correlation functions to get ground state matrix elements that are 
+      then decomposed into the desired form factors. The calculation is repeated at multiple values of lattice spacing and 
+      pion mass and the results extrapolated to the physical point. 
+\item[Timeline:]
+    \item[2017] Demonstration that the standard method of analysis gives form factors that do not satisfy PCAC.
+    \item[2019] Cause of failure identified to be the contributions of multihadron ($N\pi, N\pi\pi, \ldots$) states 
+      and a data driven method to remove them identified.
+    \item[2021-2023] Calculations done by a number of lattice collaborations that agree within $1\sigma$ and give results
+      with an uncertainty band of $\approx 10\%$.
+    \item[2023-2025] NME and PNDME collaborations to reduce the uncertainty band to 3--5\%
+    \item[2030] DUNE expected to start taking data.
+\end{itemize}
+
+% Rajan Gupta
+\subsection{Contributions of CP violating operators to nucleon electric dipole moment (nEDM)}\label{sec:nEDM}
+\begin{itemize}
+    \item[Motivation.] The CP violation in the CKM quark mixing is too
+      small to generate the observed baryon asymmetry in the observed
+      universe.  BSM models have new sources of CP violation, each of
+      which contribute to nEDM. These interactions and their couplings
+      in BSM theories are, using tools of effective field theories,
+      written in terms of low energy operators composed of quark and
+      gluon fields. The matrix elements of these effective operators
+      are only known within a factor of 10 uncertainty.  Lattice QCD
+      provides the best method to determine them with control over all
+      systematics. Kmowng these matrix elements, one can use the bound
+      [eventually value] of nEDM to constrain the CP violating
+      couplings in various BSM theories.  These viable BSM models can
+      then be analyzed to determine if they are further consistent
+      with the generation of the observed baryon asymmetry.
+    \item[Long term goal.] To calculate the matrix elements of all low energy effective operators of dimension six
+      and smaller that contribute to the nucleon electric dipole moment. 
+    \item[Method.] This requires calculating three- and four- point
+      functions comprising the insertion of the electromagnetic
+      current with finite CP violating operators with finite momentum
+      insertion between the nucleon source and sink operators to be
+      able to take the zero momentum limit.  During analysis, remove
+      the excited state contributions from these correlation functions
+      to get ground state matrix elements that are then decomposed
+      into the desired form factors of which $F_3$ is the desired CP
+      violating one from which $d_n = F_3(0)/2 M_N \epsilon$, where
+      $\epsilon $ is the coupling strength of the operator. Repeat the
+      calculation at multiple values of lattice spacing and pion mass
+      and extrapolate the results to the physical point.
+\item[Timeline:]
+    \item[Pre 2017] The first lattice calculations set up the framework but did not include a phase in the definition of the 
+      nucleon spinor, which lead to wrong results. 
+    \item[2017-2023] Focus on error reduction in the extraction of
+      $F_3$ parameterization of experimental data. Understand and remove 
+      the contributions of multihadron ($N\pi,
+      N\pi\pi, \ldots$) states. 
+    \item[2021-2023] Calculations from a number of collaboration for the Theta term with different levels of 
+      control over signal and systematics. 
+    \item[2023-2025] To get a robust signal at near physical quark masses. 
+    \item[2030] Expect a factor of 10 reduction in the upper bound on neutron EDM and mabe a value. 
+\end{itemize}
+
+
+% Rajan Gupta
+\subsection{Nucleon Charges}\label{sec:nuccharges}
+\begin{itemize}
+    \item[Motivation.] Nucleon charges $g_{A,S,T}$ arise in many
+      low-energy description of nucleons. Flavor diagonal axial
+      charges give the contributions of each quark flavor to the
+      nucleon spin; tensor charges give the contribution of quark EDM
+      to the nucleon EDM; and scalar charges give the pion-nucleon sigma term and strangeness content of the nucleon. 
+      Isovector charges give the axial charge $g_A$, a fundamental low-energy constant. The scalar and tensor 
+      charges probe novel scalar and tensor interactions at the TeV scale and the tensor charge is also 
+      measured in transversity measurements at JLAB. From the matrix elements of 1-link operators, we extract 
+      the first moment of distributions, namely momentum fraction, and helicity and transversity moments. These 
+      results compare favorably with their extractions from PDFs.
+    \item[Long term goal.] To calculate each of these with sub-percent accuracy. 
+    \item[Method.] All these require the calculation of connected and disconnected three-point
+      functions comprising the insertion of appropriate quark bilinear operators between 
+      nucleon source and sink operators. During analysis, remove the
+      excited state contributions from these correlation functions to
+      get ground state matrix elements that are then decomposed into
+      the desired charges. The calculation is repeated at
+      multiple values of lattice spacing and pion mass and the results
+      extrapolated to the physical point.
+\item[Timeline:]
+    \item[2011--2019] Lattice results reach the robustness standard to be reviewed by FLAG and average values publushed.
+    \item[2019-2023] Steady improvement in precision to reach few  percent accuracy and get control over excited states. 
+      Possible resolution of the discrepancy between lattice estimate of the the pion-nucleon sigma term between lattice QCD and 
+      dispersive analysis published by the PNDME collaboration. 
+    \item[2023-2025] Continue to improve accuracy. 
+    \item[2030] Much higher precision analysis of nuetron decay that
+      would push the search for novel scalar and tensor interactions to the $10^{-4}$ level. 
+\end{itemize}
+
 
 % David Richards
 \subsection{Internal Structure of Mesons and Nucleons}\label{sec:meshadstruct}
@@ -428,6 +551,59 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 
 
 \section{Extreme matter}\label{sec:extreme}
+
+\subsection{QCD phase diagram}\label{sec:qcdphase}
+\begin{itemize}
+  \item[Motivation.] The aim of ultra-relativistic heavy ion
+    collisions is to study strongly interacting matter at high
+    temperatures. There is a large ongoing experimental program at
+    RHIC in BNL and LHC at CERN dedicated to this. Lattice QCD
+    calculations provide the necessary input for theoretical
+    interpretation of heavy ion experiments. 
+
+ \item[Long term goal.] The goal of lattice QCD calculations is to
+      map out the QCD phase diagram as function of the temperature at
+      zero and moderately high baryon density, calculate the QCD
+      equation of state and estimate spectral functions that are
+      needed for heavy flavor and electromagnetic probes of the matter
+      produced in ultra-relativistic heavy ion
+      collisions. \item[Method.] Calculations are performed using
+      highly improved staggered quark (HISQ) action in 2+1 flavor QCD
+      with physical strange quark mass, $m_s$ and various light quark
+      masses, $m_l$,  around its physical value of $m_l=m_s/27$. In
+      some case calculations are performed for larger value of
+      $m_l$. For the calculations of the spectral function sometimes
+      values $m_l=m_s/5$ are used while for exploring the chiral
+      aspects of the transition smaller than physical values of $m_l$
+      are used. 
+
+  \item[Timeline:]
+   \item[2011-2014] The HotQCD collaboration successfully determined
+     the chiral crossover temperature and QCD equation of state in the
+     continuum limit. 
+   \item[2014-2021] The HotQCD collaboration determined the chiral
+     crossover temperature, the QCD equation of state and fluctuations
+     of conserved charges at non-zero density, which was essential
+     input for the RHIC BES program. In particular these results have
+     been used by the BEST DOE topical collaboration.
+   \item[2019-2023] Calculations of the bottomonium properties and the
+     heavy quark potential have been performed at nearly physical
+     light quark masses on lattices with temporal extent
+     $N_{\tau}=12$. The heavy quark diffusion coefficient has been
+     calculated in 2+1 flavor QCD for the first time at
+     $m_l=m_s/5$. All these calculations are important for the
+     interpretation of the open and hidden heavy flavor production in
+     heavy ion experiments at RHIC and LHC, including START, sPHENIX,
+     ALICE, CMS and ATLAS.
+   \item[2023-2027] Our goal in the future is to calculate quarkonium
+     in-medium properties and the heavy quark diffusion coefficient in
+     the continuum limit for physical light quark masses.
+   \item[2023-2035] Heavy flavor probes will be one of the driving
+     themes of heavy ion experiments at RHIC and LHC. The sPHENX and
+     STAR experiments will collect new data in 2023-2025. The analysis
+     of these data will probably last till 2028. The LHC heavy ion
+     experiments are planned to run till at least 2035. 
+\end{itemize}
 
 
 \section{Energy Frontier}\label{sec:energy}

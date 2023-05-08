@@ -1,18 +1,32 @@
-\documentclass[12pt]{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[prd,showpacs,showkeys,preprintnumbers,floatfix,
+nofootinbib%,superscriptaddress
+]{revtex4-2}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts} 
 \usepackage{hyperref}
-\setlength{\textwidth}{480pt}
-\setlength{\textheight}{650pt}
-\setlength{\oddsidemargin}{0pt}
-%%%\setlength{\topmargin}{-40pt}
-\setlength{\topmargin}{-60pt}
-%\bibliographystyle{iopart-num}
+% \usepackage[ruled,vlined]{algorithm2e}
+\hypersetup{
+    colorlinks   = true,
+    citecolor    = blue
+}
+
+
+\begin{document}
+
+%\documentclass[12pt]{article}
+%\usepackage{graphicx} % Required for inserting images
+%\usepackage{hyperref}
+%\setlength{\textwidth}{480pt}
+%\setlength{\textheight}{650pt}
+%\setlength{\oddsidemargin}{0pt}
+%\setlength{\topmargin}{-60pt}
 
 \title{USQCD theory and experimental time lines}
 \author{USQCD Collaboration}
 \date{April 2023}
 
-\begin{document}
 
 \maketitle
 \tableofcontents
@@ -621,7 +635,8 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 
 \appendix
 
-\bibliographystyle{unsrt}
+%\bibliographystyle{unsrt}
+\bibliographystyle{apsrev}
 \bibliography{ref.bib}
 
 \end{document}

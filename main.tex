@@ -1,6 +1,13 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{hyperref}
+\setlength{\textwidth}{480pt}
+\setlength{\textheight}{650pt}
+\setlength{\oddsidemargin}{0pt}
+%%%\setlength{\topmargin}{-40pt}
+\setlength{\topmargin}{-60pt}
+%\bibliographystyle{iopart-num}
+
 \title{USQCD theory and experimental time lines}
 \author{USQCD Collaboration}
 \date{April 2023}
@@ -219,6 +226,38 @@
 \section{Hadron structure}\label{sec:hadstruct}
 
 % Rajan Gupta
+\subsection{Nucleon Charges}\label{sec:nuccharges}
+\begin{itemize}
+    \item[Motivation.] Nucleon charges $g_{A,S,T}$ arise in many
+      low-energy description of nucleons. Flavor diagonal axial
+      charges give the contributions of each quark flavor to the
+      nucleon spin; tensor charges give the contribution of quark EDM
+      to the nucleon EDM; and scalar charges give the pion-nucleon sigma term and strangeness content of the nucleon. 
+      Isovector charges give the axial charge $g_A$, a fundamental low-energy constant. The scalar and tensor 
+      charges probe novel scalar and tensor interactions at the TeV scale and the tensor charge is also 
+      measured in transversity measurements at JLAB. From the matrix elements of 1-link operators, we extract 
+      the first moment of distributions, namely momentum fraction, and helicity and transversity moments. These 
+      results compare favorably with their extractions from PDFs.
+    \item[Long term goal.] To calculate each of these with sub-percent accuracy. 
+    \item[Method.] All these require the calculation of connected and disconnected three-point
+      functions comprising the insertion of appropriate quark bilinear operators between 
+      nucleon source and sink operators. During analysis, remove the
+      excited state contributions from these correlation functions to
+      get ground state matrix elements that are then decomposed into
+      the desired charges. The calculation is repeated at
+      multiple values of lattice spacing and pion mass and the results
+      extrapolated to the physical point.
+\item[Timeline:]
+    \item[2011--2019] Lattice results reach the robustness standard to be reviewed by FLAG and average values publushed.
+    \item[2019-2023] Steady improvement in precision to reach few  percent accuracy and get control over excited states. 
+      Possible resolution of the discrepancy between lattice estimate of the the pion-nucleon sigma term between lattice QCD and 
+      dispersive analysis published by the PNDME collaboration. 
+    \item[2023-2025] Continue to improve accuracy. 
+    \item[2030] Much higher precision analysis of nuetron decay that
+      would push the search for novel scalar and tensor interactions to the $10^{-4}$ level. 
+\end{itemize}
+
+% Rajan Gupta
 \subsection{Electromagnetic Form Factors}\label{sec:vecff}
 \begin{itemize}
     \item[Motivation.] The electromagnetic form factors of the nucleons are well measured experimentally from electron 
@@ -264,6 +303,7 @@
     \item[2030] DUNE expected to start taking data.
 \end{itemize}
 
+
 % Rajan Gupta
 \subsection{Contributions of CP violating operators to nucleon electric dipole moment (nEDM)}\label{sec:nEDM}
 \begin{itemize}
@@ -306,39 +346,6 @@
       control over signal and systematics. 
     \item[2023-2025] To get a robust signal at near physical quark masses. 
     \item[2030] Expect a factor of 10 reduction in the upper bound on neutron EDM and mabe a value. 
-\end{itemize}
-
-
-% Rajan Gupta
-\subsection{Nucleon Charges}\label{sec:nuccharges}
-\begin{itemize}
-    \item[Motivation.] Nucleon charges $g_{A,S,T}$ arise in many
-      low-energy description of nucleons. Flavor diagonal axial
-      charges give the contributions of each quark flavor to the
-      nucleon spin; tensor charges give the contribution of quark EDM
-      to the nucleon EDM; and scalar charges give the pion-nucleon sigma term and strangeness content of the nucleon. 
-      Isovector charges give the axial charge $g_A$, a fundamental low-energy constant. The scalar and tensor 
-      charges probe novel scalar and tensor interactions at the TeV scale and the tensor charge is also 
-      measured in transversity measurements at JLAB. From the matrix elements of 1-link operators, we extract 
-      the first moment of distributions, namely momentum fraction, and helicity and transversity moments. These 
-      results compare favorably with their extractions from PDFs.
-    \item[Long term goal.] To calculate each of these with sub-percent accuracy. 
-    \item[Method.] All these require the calculation of connected and disconnected three-point
-      functions comprising the insertion of appropriate quark bilinear operators between 
-      nucleon source and sink operators. During analysis, remove the
-      excited state contributions from these correlation functions to
-      get ground state matrix elements that are then decomposed into
-      the desired charges. The calculation is repeated at
-      multiple values of lattice spacing and pion mass and the results
-      extrapolated to the physical point.
-\item[Timeline:]
-    \item[2011--2019] Lattice results reach the robustness standard to be reviewed by FLAG and average values publushed.
-    \item[2019-2023] Steady improvement in precision to reach few  percent accuracy and get control over excited states. 
-      Possible resolution of the discrepancy between lattice estimate of the the pion-nucleon sigma term between lattice QCD and 
-      dispersive analysis published by the PNDME collaboration. 
-    \item[2023-2025] Continue to improve accuracy. 
-    \item[2030] Much higher precision analysis of nuetron decay that
-      would push the search for novel scalar and tensor interactions to the $10^{-4}$ level. 
 \end{itemize}
 
 
@@ -552,6 +559,7 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 
 \section{Extreme matter}\label{sec:extreme}
 
+% Peter Petreczky
 \subsection{QCD phase diagram}\label{sec:qcdphase}
 \begin{itemize}
   \item[Motivation.] The aim of ultra-relativistic heavy ion
@@ -609,7 +617,9 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 \section{Energy Frontier}\label{sec:energy}
 
 
+\newpage
 
+\appendix
 
 \bibliographystyle{unsrt}
 \bibliography{ref.bib}

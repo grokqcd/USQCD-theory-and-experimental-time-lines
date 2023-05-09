@@ -446,16 +446,44 @@ uncertainties in global analyses of experimental data.
 % Michael Wagman
 \subsection{Collins-Soper kernel for TMD evolution}
 \begin{itemize}
-    \item[Motivation.] The Collins-Soper kernel relates the transverse-momentum-dependent distributions (TMDs) of hadrons at different energy scales, which is a crucial non-perturbative input for global analyses to understand the 3D structure of the proton.
-    \item[Long term goal.] Calculate the Collins-Soper kernel at physical pion mass with a $\sim 10\%$ precision, which can be compared to the experimental results from the Electron-Ion Collider.
-    \item[Method.] Lattice calculation and renormalization of the matrix elements of quasi-TMD correlators in a highly boosted hadron state. The quasi-TMD correlators are defined from quark and gluon bilinear operators with a staple-shaped Wilson line extending to the longitudinal direction as the hadron momentum. At large hadron momentum, the quasi-TMD can be factorized into the physical TMD, and the anomalous dimension of their momentum evolution can be perturbatively matched onto the Collins-Soper kernel. Apart from the forward matrix elements for quasi-TMDs, we can also use the TMD wave function, which is a vacuum to hadron amplitude of the quasi-TMD correlator, to extract the Collins-Soper kernel.
+    \item[Motivation.] The Collins-Soper kernel relates the
+      transverse-momentum-dependent distributions (TMDs) of hadrons at
+      different energy scales, which is a crucial non-perturbative
+      input for global analyses to understand the 3D structure of the
+      proton. 
+    \item[Long term goal.] Calculate the Collins-Soper kernel at
+      physical pion mass with a $\sim 10\%$ precision, which can be
+      compared to the experimental results from the Electron-Ion
+      Collider. 
+    \item[Method.] Lattice calculation and renormalization of the
+      matrix elements of quasi-TMD correlators in a highly boosted
+      hadron state. The quasi-TMD correlators are defined from quark
+      and gluon bilinear operators with a staple-shaped Wilson line
+      extending to the longitudinal direction as the hadron
+      momentum. At large hadron momentum, the quasi-TMD can be
+      factorized into the physical TMD, and the anomalous dimension of
+      their momentum evolution can be perturbatively matched onto the
+      Collins-Soper kernel. Apart from the forward matrix elements for
+      quasi-TMDs, we can also use the TMD wave function, which is a
+      vacuum to hadron amplitude of the quasi-TMD correlator, to
+      extract the Collins-Soper kernel. 
 \item[Timeline:]
 %\begin{itemize}
-    \item[2019] Study of the renormalization and mixing of the staple-shaped quasi-TMD correlator on the lattice~\cite{Shanahan:2019zcq}.
-    \item[2020] First exploratory calculation of the quark Collins-Soper kernel on a quenched lattice ensemble from the quasi-TMDs~\cite{Shanahan:2020zxr}.
-    \item[2021] First lattice calculation of the quark Collins-Soper kernel with dynamical fermions at unphysical pion mass of around 500 MeV from the quasi-TMDs~\cite{Shanahan:2021tst}.
-    \item[2022-2023] Ongoing lattice calculation of the quark Collins-Soper kernel at the physical point from the quasi-TMD wave functions.
-    \item[2023-2025] Improving the precision of the quark Collins-Soper kernel to less than $10\%$ with physical extrapolations and higher hadron momenta.
+    \item[2019] Study of the renormalization and mixing of the
+      staple-shaped quasi-TMD correlator on the
+      lattice~\cite{Shanahan:2019zcq}. 
+    \item[2020] First exploratory calculation of the quark
+      Collins-Soper kernel on a quenched lattice ensemble from the
+      quasi-TMDs~\cite{Shanahan:2020zxr}. 
+    \item[2021] First lattice calculation of the quark Collins-Soper
+      kernel with dynamical fermions at unphysical pion mass of around
+      500 MeV from the quasi-TMDs~\cite{Shanahan:2021tst}. 
+    \item[2022-2023] Ongoing lattice calculation of the quark
+      Collins-Soper kernel at the physical point from the quasi-TMD
+      wave functions. 
+    \item[2023-2025] Improving the precision of the quark
+      Collins-Soper kernel to less than $10\%$ with physical
+      extrapolations and higher hadron momenta. 
     \item[2023-2026] Develop and implement the method to calculate the gluon Collins-Soper kernel.
     \item[2023-2026] Lattice calculation of the quark TMD soft factor.
 %\end{itemize}
@@ -489,6 +517,27 @@ leading to quark angular momentum sum rule being satisfied.
 \item[2024] Enhancing control of systematic uncertainties in Lattice QCD
 evaluations of quark OAM; quark mass dependence, excited state effects.
 \item[2027] Evaluation of gluon OAM.
+\end{itemize}
+
+% Keh-Fei Liu
+\subsection{Neutrino-nucleon Scattering from the Hadronic Tensor}
+\begin{itemize}
+    \item[Motivation.] The formalism of hadronic tensor in lattice QCD~\cite{Liu:1993cv,Liu:1999ak} offers an opportunity to directly evaluate the cross-sections of neutrino-nucleon scattering in the elastic and resonance regions and potentially in the shallow- and deep-inelastic regions as well. The lattice calculation of the neutrino-nucleon scattering cross-sections can be an input for the neutrino-nucleus scattering calculation. The latter is needed for neutrino experiments at DUNE to provide theoretical constraints when analyzing data from neutrino oscillation experiments.
+    \item[Long term goal.] Calculate precise neutrino-nucleon scattering cross-sections in all the neutrino energy regions from the threshold to 7 GeV. This should help improve the theoretical understanding of the neutrino-nucleus scattering cross-sections and maximize the discovery potential of neutrino oscillation experiments.
+    \item[Method.]  Calculation of matrix elements using four-point correlation functions with vector and axial two-current insertions to the nucleon propagator at different space-time positions to obtain the Euclidean hadronic tensor. Bayesian reconstruction will be employed to solve the inverse problem and obtain the spectral decomposition for the hadronic tensor in the Minkowski space.
+    \item[Timeline:]
+    \item[1993,1999] The hadronic tensor was formulated in the Euclidean path-integral formalism~\cite{Liu:1993cv}. A new parton degree of freedom -- connected sea partons, was discovered and the operator product expansion was obtained~\cite{Liu:1999ak}.
+  \item[2017] The parton evolution equation is generalized to include the connected-sea partons~\cite{Liu:2017lpe}.
+    \item[2019] First exploratory calculation of the hadronic tensor was carried out using Backus-Gilbert, Maximum Entropy and Bayesian Reconstruction methods are studied in solving the inverse problem~\cite{Liang:2019frk}.
+    \item[2020] Plenary talk at 2019 Lattice Conference which checked the higher-twist contribution and verified that the hadronic tensor matrix element for the elastic scattering is the product of elastic form factors from the three-point correlators~\cite{Liang:2020sqi}.
+    \item[2020] It is shown that the parton degrees of freedom from the hadronic tensor are the same as those in the quasi- and pseudo-PDFs~\cite{Liu:2020okp}.
+    \item[2021] The connected-sea partons have been incorporated in the global analysis of PDFs for the first time~\cite{Hou:2022ajg}
+    \item[2023] Calculation of nucleon elastic and $N\to N^*$ transition form factors and corresponding longitudinal helicity amplitude are completed. A manuscript is being prepared for publication.
+    \item[2024] Calculation of the $\Delta$ contribution in the neutrino-nucleon scattering. Explore large momentum transfer
+    to study the shallow- and deep-inelastic scattering regions.
+    \item[2025-2026] High statistics determinations of the resonance contributions on multiple ensembles and exploration of
+    the unpolarized, longitudinal and transversely polarized PDFs.
+    \item[2027-] Exploration of generalized parton distribution functions through off-forward matrix elements.
 \end{itemize}
 
 % William Jay

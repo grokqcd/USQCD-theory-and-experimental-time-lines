@@ -328,8 +328,10 @@ nofootinbib%,superscriptaddress
 
 \section{Hadron structure}\label{sec:hadstruct}
 
+\subsection{Electromagnetic Form Factors}\label{sec:vecff}
+
 % Rajan Gupta
-\subsection{Nucleon Charges}\label{sec:nuccharges}
+\subsection{Nucleon charges}\label{sec:nuccharges}
 \begin{itemize}
     \item[Motivation.] Nucleon charges $g_{A,S,T}$ arise in many
       low-energy description of nucleons. Flavor diagonal axial
@@ -361,7 +363,7 @@ nofootinbib%,superscriptaddress
 \end{itemize}
 
 % Rajan Gupta
-\subsection{Electromagnetic Form Factors}\label{sec:vecff}
+\subsubsection{Nucleon electromagnetic form factors}
 \begin{itemize}
     \item[Motivation.] The electromagnetic form factors of the nucleons are well measured experimentally from electron 
       scattering off nuclei.  There is still uncertainty in the calculation of the charge radius of the proton, i.e., 
@@ -382,8 +384,21 @@ nofootinbib%,superscriptaddress
     \item[2030] EIC expected to start taking data.
 \end{itemize}
 
-% Rajan Gupta
+% Sergey Syritsyn
+\subsubsection{Calculation of high-momentum nucleon form factors}
+\begin{itemize}
+    \item[Motivation.] Any data on nucleon form factors in the range of momentum transfer 5-20 GeV$^2$ will be important for understanding the transition between perturbative and nonperturbative QCD. Such data will also be illuminating for qualitative pictures of nucleons in terms of gluon-dressed constituents or diquarks.
+    \item[Long term goal.] Ab initio calculation of such form factors using QCD on a lattice, done with fully controlled systematic errors, is necessary to fill the gap between theory and ongoing experiments. Comparison to experimental results will also reveal and help address any systematic uncertainties in calculations with high-momentum hadron states on a lattice such as calculations of PDFs/GPDs using LaMET and similar approaches.
+    \item[Method.] We employ standard lattice techniques together with some methods (e.g., momentum-boosted states) to improve overlap with large-momentum nucleon ground state. We use Breit frame kinematics to reach maximal possible momentum transfer.
+\item[Timeline:]
+    \item[2016-2023] We have performed calculations of electric and magnetic form factors at three values of lattice spacing and pion masses down to 170 MeV. We have found qualitative agreement in the dependence of the proton form factor ratios $G_{Ep}/G_{Mp}$ and $F_{1p}/F_{2p}$. Some agreement is also evident in the neutron case for $G_{En}/G_{Mn}$. While this agreement is reassuring, the values of the form factors themselves overshoot experiment by factor 2-2.5 for momenta $Q^2$ above 4 GeV$^2$. This is probably due to large contributions of the excited states, since we observe very little dependence on the lattice spacing and the pion mass.
+    \item[2023-onward] We plan to increase the statistical precision and extend the range of nucleon correlators in order to improve the control over excited states. In addition, we plan to study the so-called disconnected diagrams (contributions to the isoscalar $(p+n)$ channel) and the leading-order $O(a)$ discretization corrections.
+    \item[Relevant experiments] have been performed at CEBAF (JLab@12 GeV) to measure electromagnetic form factors up to 18 GeV$^2$. Results for the magnetic form factor of the proton have been published.
+\end{itemize}
+
 \subsection{Axial Form Factors}\label{sec:axff}
+
+% Rajan Gupta
 \subsubsection{NME, PNDME Collaborations}
 \begin{itemize}
     \item[Motivation.] The axial form factors of the nucleons are not well measured experimentally and are
@@ -423,8 +438,10 @@ nofootinbib%,superscriptaddress
 
 
 
+\subsection{Nuclean Electric Dipole Moment (nEDM)}\label{sec:nEDM}
+
 % Rajan Gupta
-\subsection{Contributions of CP violating operators to nucleon electric dipole moment (nEDM)}\label{sec:nEDM}
+\subsubsection{Contributions of CP violating operators to nucleon electric dipole moment}
 \begin{itemize}
     \item[Motivation.] The CP violation in the CKM quark mixing is too
       small to generate the observed baryon asymmetry in the observed
@@ -435,12 +452,13 @@ nofootinbib%,superscriptaddress
       gluon fields. The matrix elements of these effective operators
       are only known within a factor of 10 uncertainty.  Lattice QCD
       provides the best method to determine them with control over all
-      systematics. Kmowng these matrix elements, one can use the bound
+      systematics. Knowing these matrix elements, one can use the bound
       [eventually value] of nEDM to constrain the CP violating
       couplings in various BSM theories.  These viable BSM models can
       then be analyzed to determine if they are further consistent
       with the generation of the observed baryon asymmetry.
-    \item[Long term goal.] To calculate the matrix elements of all low energy effective operators of dimension six
+    \item[Long term goal.] To calculate the matrix elements of all low
+      energy effective operators of dimension six 
       and smaller that contribute to the nucleon electric dipole moment. 
     \item[Method.] This requires calculating three- and four- point
       functions comprising the insertion of the electromagnetic
@@ -455,17 +473,64 @@ nofootinbib%,superscriptaddress
       calculation at multiple values of lattice spacing and pion mass
       and extrapolate the results to the physical point.
 \item[Timeline:]
-    \item[Pre 2017] The first lattice calculations set up the framework but did not include a phase in the definition of the 
-      nucleon spinor, which lead to wrong results. 
+    \item[Pre 2017] The first lattice calculations set up the
+      framework but did not include a phase in the definition of the
+      nucleon spinor, which lead to wrong results.  
     \item[2017-2023] Focus on error reduction in the extraction of
       $F_3$ parameterization of experimental data. Understand and remove 
       the contributions of multihadron ($N\pi,
       N\pi\pi, \ldots$) states. 
-    \item[2021-2023] Calculations from a number of collaboration for the Theta term with different levels of 
-      control over signal and systematics. 
+    \item[2021-2023] Calculations from a number of collaboration for
+      the Theta term with different levels of control over signal and
+      systematics.  
     \item[2023-2025] To get a robust signal at near physical quark masses. 
-    \item[2030] Expect a factor of 10 reduction in the upper bound on neutron EDM and mabe a value. 
+    \item[2030] Expect a factor of 10 reduction in the upper bound on
+      neutron EDM and mabe a value.  
 \end{itemize}
+
+% Sergey Syritsyn
+\subsubsection{Quark-gluon CP violating contributions}
+\begin{itemize}
+    \item[Motivation.] Neutron and proton electric dipole moments
+      (EDMs) are the most precise probes of CP violation in QCD and
+      beyond-the SM physics. The latter is important for finding
+      plausible scenarios of baryogenesis and understanding the origin
+      of the nuclear matter. Knowing the magnitude of neutron EDM
+      induced by different sources of CP violation is crucial to using
+      experimental bounds to constrain new types of CP-violating
+      interactions. 
+    \item[Long term goal] is finding contributions to nucleon EDMs of
+      effective quark-gluon CPv operators that may be induced by new
+      physics. These effective CPv interactions are quark EDMs, quark
+      and gluon chromo-EDMs, QCD theta-term, and 4-quark
+      interactions. 
+    \item[Method.] We use the background-field method in which the
+      energy (mass) of a nucleon is shifted due to induced EDM. This
+      method may have comparative advantage compared to computing
+      electric dipole form factors that have to be extrapolated to the
+      forward limit. In addition, it may be simpler to implement in
+      the case of four-quark operators. 
+\item[Timeline:]
+    \item[2016-2023] We have successfully demonstrated that the
+      background field method is at least comparable in precision to
+      the traditional method of computing neutron EDM induced by the
+      QCD theta-term.We have implemented sophisticated sampling
+      techniques combining variable precision and low-lying eigenmode
+      approximation of the Dirac equation. We have performed
+      calculation of the neutron EDM using chirally-symmetric
+      fermions. 
+    \item[2023-onward] We plan to extend our calculations of
+      theta-QCD-induced neutron EDM to the physical point, where the
+      low-eigenmode approximation is expected to be even more
+      efficient. We also plan to start calculations involving 4-quark
+      CPv operators. 
+    \item[Experiments] are expected to improve bounds on neutron EDMs
+      within the current decade. It is particularly important to
+      improve our theoretical knowledge of neutron EDM contributions
+      in the same time frame in order to constrain proposed models of
+      novel CP-violating interactions and baryogenesis scenarios. 
+\end{itemize}
+
 
 
 % David Richards

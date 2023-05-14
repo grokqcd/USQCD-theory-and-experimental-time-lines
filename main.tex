@@ -1,13 +1,29 @@
-\documentclass[prd]{revtex4-2}
+
+  % % % % & pdflatex
+
+
+%\documentclass[aps,hyperpdf]{revtex4-2}
+%\documentclass[aps]{revtex4-2}
+
+
 %\documentclass[prd,showpacs,showkeys,preprintnumbers,floatfix, 
 %nofootinbib%,superscriptaddress
 %]{revtex4-2}
+
 %\documentclass[12pt]{article}
+\documentclass[12pt,hyperpdf]{article}
+
+%\pdfoutput=1 
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amsfonts} 
+%\usepackage{amsmath}
+%\usepackage{amsfonts} 
+
+\usepackage[nottoc]{tocbibind}
+
+\usepackage[numbers]{natbib}
+
 \usepackage{hyperref}
 
 %\hypersetup{
@@ -15,28 +31,52 @@
 %    citecolor    = blue
 %}
 
+\hypersetup{ 
+    pdfnewwindow=true,         % links in new window
+    colorlinks=true,           % false: boxed links; true: colored links
+    linkcolor=blue,            % color of internal links
+    citecolor=blue,            % color of links to bibliography
+    filecolor=blue,            % color of file links
+    urlcolor=blue,              % color of external links
+    hypertexnames=blue
+} 
 
-%\setlength{\textwidth}{480pt}
-%\setlength{\textheight}{650pt}
-%\setlength{\oddsidemargin}{0pt}
-%\setlength{\topmargin}{-60pt}
 
-\begin{document}
+
+\setlength{\textwidth}{480pt}
+\setlength{\textheight}{650pt}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\topmargin}{-60pt}
 
 \title{USQCD theory and experimental time lines}
 \author{USQCD Collaboration}
 \date{May 2023}
 
+\begin{document}
+
 \maketitle
 \tableofcontents
+
 \section{Intensity Frontier}\label{sec:intensity}
 
 % Tom Blum
 \subsection{Muon $g-2$}
 \begin{itemize}
-    \item{\bf Motivation:} The muon anomalous magnetic moment, or $g-2$, will be measured by the E989 experiment at Fermilab to the one-per=mille precision level and thus offers an exceptional opportunity to test the standard model if theory can match this precision.
-    \item{\bf Long term goal:} The Muon $g-2$ Theory Initiative aims to provide a consensus theory value at the same level of precision as the E989 experiment. Only QCD, or hadronic, contributions need improvement to reach this goal.
-!\item{\bf Method:} Lattice  calculations of correlation functions in QCD for the hadronic vacuum polarization (HVP) (two-point) and hadronic light-by-light scattering (HLbL) (four-point) are combined with perturbative QED at $O(\alpha^2)$ and $O(\alpha^3)$, respectively, to obtain the leading hadronic contributions.
+    \item{\bf Motivation:} The muon anomalous magnetic moment, or
+      $g-2$, will be measured by the E989 experiment at Fermilab to
+      the one-per=mille precision level and thus offers an exceptional
+      opportunity to test the standard model if theory can match this
+      precision. 
+    \item{\bf Long term goal:} The Muon $g-2$ Theory Initiative aims
+      to provide a consensus theory value at the same level of
+      precision as the E989 experiment. Only QCD, or hadronic,
+      contributions need improvement to reach this goal.      
+    \item{\bf Method:} Lattice  calculations of correlation functions
+      in QCD for the hadronic vacuum polarization (HVP) (two-point)
+      and hadronic light-by-light scattering (HLbL) (four-point) are
+      combined with perturbative QED at $O(\alpha^2)$ and
+      $O(\alpha^3)$, respectively, to obtain the leading hadronic
+      contributions.  
 \item{\bf Timeline:}
 \begin{itemize}
     \item{\bf 2021:} Muon $g-2$ Theory Initiative whitepaper~\cite{Aoyama:2020ynm} released with consensus Standard Model Value based on data-driven HVP and data-driven+lattice HLbL contributions.
@@ -1202,10 +1242,12 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 
 \newpage
 
-\appendix
+%\appendix
 
 %\bibliographystyle{unsrt}
-\bibliographystyle{apsrev}
+\bibliographystyle{unsrtnat}
+%\bibliographystyle{apsrev}
+%\bibliographystyle{plain}
 \bibliography{ref.bib}
 
 \end{document}

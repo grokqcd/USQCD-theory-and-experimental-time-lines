@@ -1,6 +1,8 @@
-\documentclass[prd,showpacs,showkeys,preprintnumbers,floatfix,
-nofootinbib%,superscriptaddress
-]{revtex4-2}
+%\documentclass[prd,showpacs,showkeys,preprintnumbers,floatfix,
+%nofootinbib%,superscriptaddress
+%]{revtex4-2}
+\documentclass[12pt]{article}
+
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -13,20 +15,16 @@ nofootinbib%,superscriptaddress
 }
 
 
-\begin{document}
+\setlength{\textwidth}{480pt}
+\setlength{\textheight}{650pt}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\topmargin}{-60pt}
 
-%\documentclass[12pt]{article}
-%\usepackage{graphicx} % Required for inserting images
-%\usepackage{hyperref}
-%\setlength{\textwidth}{480pt}
-%\setlength{\textheight}{650pt}
-%\setlength{\oddsidemargin}{0pt}
-%\setlength{\topmargin}{-60pt}
+\begin{document}
 
 \title{USQCD theory and experimental time lines}
 \author{USQCD Collaboration}
 \date{May 2023}
-
 
 \maketitle
 \tableofcontents
@@ -35,57 +33,57 @@ nofootinbib%,superscriptaddress
 % Tom Blum
 \subsection{Muon $g-2$}
 \begin{itemize}
-    \item[Motivation.] The muon anomalous magnetic moment, or $g-2$, will be measured by the E989 experiment at Fermilab to the one-per=mille precision level and thus offers an exceptional opportunity to test the standard model if theory can match this precision.
-    \item[Long term goal.] The Muon $g-2$ Theory Initiative aims to provide a consensus theory value at the same level of precision as the E989 experiment. Only QCD, or hadronic, contributions need improvement to reach this goal.
-\item[Method.] Lattice  calculations of correlation functions in QCD for the hadronic vacuum polarization (HVP) (two-point) and hadronic light-by-light scattering (HLbL) (four-point) are combined with perturbative QED at $O(\alpha^2)$ and $O(\alpha^3)$, respectively, to obtain the leading hadronic contributions.
-\item[Timeline:]
-%\begin{itemize}
-    \item[2021] Muon $g-2$ Theory Initiative whitepaper~\cite{Aoyama:2020ynm} released with consensus Standard Model Value based on data-driven HVP and data-driven+lattice HLbL contributions.
-B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined with BNL 821 (0.54 ppm), yields 4.2 standard deviation discrepancy with theory.
-    \item[2021] BMW collaboration computes HVP contribution to 0.75\%, consistent with experiment. 
-    \item[2022] USQCD groups Fermilab Lattice/HPQCD/MILC and RBC/UKQCD, $\chi$QCD, Aubin {\it et al.}, and several groups from Europe obtain agreement on the HVP intermediate window which is four standard deviations discrepant with the data-driven value.
-    \item[2023] Several groups to update total HVP contribution, including isospin corrections, with sub-percent errors.
-    \item[2023] RBC updated HLbL contribution, reaching 12\% error.
-    \item[2023] E989 to announce run 2 and 3 combined result, improving precision by a factor of two.
-    \item[2024] RBC to reduce error on HLbL contribution by a factor of two.
-    \item[2024-25] RBC/UKQCD and FHM reach 1-2 per-mille goal on HVP contribution. 
-    \item[2025-26] E989 releases final result with expected precision of $\sim 1.4$ ppm
-%\end{itemize}
+    \item{\bf Motivation:} The muon anomalous magnetic moment, or $g-2$, will be measured by the E989 experiment at Fermilab to the one-per=mille precision level and thus offers an exceptional opportunity to test the standard model if theory can match this precision.
+    \item{\bf Long term goal:} The Muon $g-2$ Theory Initiative aims to provide a consensus theory value at the same level of precision as the E989 experiment. Only QCD, or hadronic, contributions need improvement to reach this goal.
+!\item{\bf Method:} Lattice  calculations of correlation functions in QCD for the hadronic vacuum polarization (HVP) (two-point) and hadronic light-by-light scattering (HLbL) (four-point) are combined with perturbative QED at $O(\alpha^2)$ and $O(\alpha^3)$, respectively, to obtain the leading hadronic contributions.
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2021:} Muon $g-2$ Theory Initiative whitepaper~\cite{Aoyama:2020ynm} released with consensus Standard Model Value based on data-driven HVP and data-driven+lattice HLbL contributions.
+    \item{\bf 2021} E989 announces first results with 0.48 ppm precision. Combined with BNL 821 (0.54 ppm), yields 4.2 standard deviation discrepancy with theory.
+    \item{\bf 2021} BMW collaboration computes HVP contribution to 0.75\%, consistent with experiment. 
+    \item{\bf 2022} USQCD groups Fermilab Lattice/HPQCD/MILC and RBC/UKQCD, $\chi$QCD, Aubin {\it et al.}, and several groups from Europe obtain agreement on the HVP intermediate window which is four standard deviations discrepant with the data-driven value.
+    \item{\bf 2023} Several groups to update total HVP contribution, including isospin corrections, with sub-percent errors.
+    \item{\bf 2023} RBC updated HLbL contribution, reaching 12\% error.
+    \item{\bf 2023} E989 to announce run 2 and 3 combined result, improving precision by a factor of two.
+    \item{\bf 2024} RBC to reduce error on HLbL contribution by a factor of two.
+    \item{\bf 2024-25} RBC/UKQCD and FHM reach 1-2 per-mille goal on HVP contribution. 
+    \item{\bf 2025-26} E989 releases final result with expected precision of $\sim 1.4$ ppm
+\end{itemize}
 \end{itemize}
 
 % Carleton Detar
 \subsection{$B$-meson anomalies and CKM unitarity tests}
 \begin{itemize}
-    \item[Motivation.] $B$-flavor physics offers excellent opportunities for stringent tests of the Standard Model, tests that may lead to the discovery of new physics. In conjunction with refined experimental results, precision lattice-QCD calculations yield precise values of the CKM matrix elements, allowing checks of CKM unitarity and tests of lepton universality. Measurements of rare semileptonic $B$-meson decays (such as $B\to\pi\ell^+\ell^-$, $B\to K\ell^+\ell^-$) are promising channels for new-physics searches because their rates are suppressed in the Standard Model.
-    \item[Long term goal.] Lattice-QCD calculations go hand-in-hand with experiment.  Thus the long-term goal is to keep pace with the improving experimental precision of each quantity under study.
-    \item[Method.] Most calculations work with a combination of hadronic two- and three-point functions, measured at several lattice spacings and quark masses, and with a variety of current operators. 
-\item[Timeline:]
-%\begin{itemize}
-    \item[2014] Calculation of leptonic $B$, $B_s$, $D$, and $D_s$ decay constants to sub-percent accuracy.
-    \item[2015] First measurement by CMS/LHCb of the decay $B_s \to \mu^+\mu^-$.
-    \item[2021] Calculation of $R(D*)$ to 4\%.
-    \item[2022] Precise calculation of $|V_{cs}|$ with a QCD error comparable to the current experimental precision and of $|V_{cd}|$ with a QCD error twice that of experiment~\cite{FermilabLattice:2022gku}.
-    \item[2024] Calculation of $|V_{ub}|$ to 1\% via $B\to D\ell\nu$ and $|V_{ub}$ to 2\% via $B\to \pi\ell\nu$.
-    \item[2024] Calculation of $B\to\pi \ell^+\ell^-$ and $B\to K \ell^+\ell^-$ to 2\%.
-    \item[2026] LHCb End of Run 3 data taking. Beginning of Long shutdown 3.
-    \item[2027] Calculation of $|V_{cb}|$ to the sub-percent level via $B\to D^*\ell\nu$.
-    \item[2027] Calculation of $R(D*)$ to 1\%.
-    \item[2027-28] Belle II Long shutdown 2.
-%    \item[??] Belle II
-%    \item[??] LHCb
-%    \item[??] BES III
-%\end{itemize}
+    \item{\bf Motivation:} $B$-flavor physics offers excellent opportunities for stringent tests of the Standard Model, tests that may lead to the discovery of new physics. In conjunction with refined experimental results, precision lattice-QCD calculations yield precise values of the CKM matrix elements, allowing checks of CKM unitarity and tests of lepton universality. Measurements of rare semileptonic $B$-meson decays (such as $B\to\pi\ell^+\ell^-$, $B\to K\ell^+\ell^-$) are promising channels for new-physics searches because their rates are suppressed in the Standard Model.
+    \item{\bf Long term goal:} Lattice-QCD calculations go hand-in-hand with experiment.  Thus the long-term goal is to keep pace with the improving experimental precision of each quantity under study.
+    \item{\bf Method:} Most calculations work with a combination of hadronic two- and three-point functions, measured at several lattice spacings and quark masses, and with a variety of current operators. 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2014} Calculation of leptonic $B$, $B_s$, $D$, and $D_s$ decay constants to sub-percent accuracy.
+    \item{\bf 2015} First measurement by CMS/LHCb of the decay $B_s \to \mu^+\mu^-$.
+    \item{\bf 2021} Calculation of $R(D*)$ to 4\%.
+    \item{\bf 2022} Precise calculation of $|V_{cs}|$ with a QCD error comparable to the current experimental precision and of $|V_{cd}|$ with a QCD error twice that of experiment~\cite{FermilabLattice:2022gku}.
+    \item{\bf 2024} Calculation of $|V_{ub}|$ to 1\% via $B\to D\ell\nu$ and $|V_{ub}$ to 2\% via $B\to \pi\ell\nu$.
+    \item{\bf 2024} Calculation of $B\to\pi \ell^+\ell^-$ and $B\to K \ell^+\ell^-$ to 2\%.
+    \item{\bf 2026} LHCb End of Run 3 data taking. Beginning of Long shutdown 3.
+    \item{\bf 2027} Calculation of $|V_{cb}|$ to the sub-percent level via $B\to D^*\ell\nu$.
+    \item{\bf 2027} Calculation of $R(D*)$ to 1\%.
+    \item{\bf 2027-28} Belle II Long shutdown 2.
+%    \item{\bf ??} Belle II
+%    \item{\bf ??} LHCb
+%    \item{\bf ??} BES III
+\end{itemize}
 \end{itemize}
 
 % Norman Christ
 \subsection{$K_L$-$K_S$ mass difference}
 \begin{itemize}
-    \item[Motivation.] This is a precisely measured quantity that is highly sensitivity to new physics 
+    \item{\bf Motivation:} This is a precisely measured quantity that is highly sensitivity to new physics 
     at an energy scale of $10^4$ TeV.
-    \item[Long term goal.] Calculate $K_L - K_S$ mass difference with
+    \item{\bf Long term goal:} Calculate $K_L - K_S$ mass difference with
     a precision exceeding the current experimental value of $3.484
     \pm 0.007 \times  10^{-12}$ MeV.
-    \item[Method.] Well understood lattice QCD technique with no
+    \item{\bf Method:} Well understood lattice QCD technique with no
     recognized limitation to the control of all systematic
     errors. GIM cancellation is essential and treatment of the
     charmed quark using QCD perturbation theory introduces 36\%
@@ -93,53 +91,57 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
     requirement of a lattice spacing smaller than the charm quark
     Compton wave length and a volume suﬀiciently large to accurate
     treat physical mass pions. 
-\item[Timeline:]
-    \item[2010] Accurate KTeV result~\cite{KTeV:2010sng}.
-    \item[2010-2014] Lattice QCD method devised and first results 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2010} Accurate KTeV result~\cite{KTeV:2010sng}.
+    \item{\bf 2010-2014} Lattice QCD method devised and first results 
     obtained.~\cite{Christ:2012se, Bai:2014cva}.
-    \item[2014-2021] First results with physical masses and $1/a = 2.38$ MeV 
+    \item{\bf 2014-2021} First results with physical masses and $1/a = 2.38$ MeV 
     obtained, presence of large discretization errors recognized~\cite{Bai:2018lrm, 
     Wang:2021twm}.
-    \item[2021-2023] Discretization errors studied and evidence of $a^2$ scaling 
+    \item{\bf 2021-2023} Discretization errors studied and evidence of $a^2$ scaling 
     found.
-    \item[2023-2024] Calculation of the long-distance contribution to
+    \item{\bf 2023-2024} Calculation of the long-distance contribution to
     $\varepsilon_K$ with $1/a = 2.38$ MeV will include extension of
     earlier $\Delta M_K$, calculation, increasing statistics.
-    \item[2024-2026] Calculation of $\Delta M_K$ with $1/a = 2.8$ GeV
+    \item{\bf 2024-2026} Calculation of $\Delta M_K$ with $1/a = 2.8$ GeV
     giving continuum limit result with $20$\% errors. 
-    \item[2027-2030] Move to $2+1+1$ flavors and $1/a = 3.0$, $4.0$
+    \item{\bf 2027-2030} Move to $2+1+1$ flavors and $1/a = 3.0$, $4.0$
     GeV and possibly 5 GeV with $10$\% errors. 
+\end{itemize}
 \end{itemize}
 
 % Norman Christ
 \subsection{Long distance contribution to $\epsilon_K$}
 \begin{itemize}
-    \item[Motivation.] The indirect CP violation parameter $\epsilon_K$ is precisely 
+    \item{\bf Motivation:} The indirect CP violation parameter $\epsilon_K$ is precisely 
     measured and sensitive to BSM sources of CP violation at high energies. Its 
     accurate standard model (SM) prediction provides a critical test of the KM 
     theory of CP violation.  While 95\% of the SM prediction comes from short 
     distance and is computed to an accuracy approaching 1\%, there is a 5\% 
     contribution from long distances on the scale of the charm quark Compton 
     wavelength and larger that requires a lattice QCD calculation.
-    \item[Long term goal.] Calculate the long-distance contributions to $\epsilon_K$ 
+    \item{\bf Long term goal:} Calculate the long-distance contributions to $\epsilon_K$ 
     to 10\% precision, sufficient to match or exceed the current experimental 
     $\epsilon_K$ precision: $|\epsilon_K|=2.228\pm 0.011 \times 10^{-3}$~\cite{ParticleDataGroup:2022pth}.
-    \item[Method.] Well understood lattice QCD technique with no recognized 
+    \item{\bf Method:} Well understood lattice QCD technique with no recognized 
     limitation to the control of all systematic errors. GIM cancellation is essential 
     but a logarithmic divergence in the effective long-distance theory requires the 
     perturbative calculation of a low energy constant which becomes systematically 
     more accurate as the matching scale is increased above the charm quark mass.
-\item[Timeline:]
-    \item[2000] KTeV and NA48 measurements of $\epsilon'$.
-    \item[2014-2017] Lattice QCD method devised and first results 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2000} KTeV and NA48 measurements of $\epsilon'$.
+    \item{\bf 2014-2017} Lattice QCD method devised and first results 
     obtained~\cite{Christ:2015phf}. 
-    \item[2023-2024] First calculation with physical quark masses but relatively 
+    \item{\bf 2023-2024} First calculation with physical quark masses but relatively 
     coarse $1/a=2.38$ GeV lattice spacing (combined with an extension of the
     $\Delta M_K$ calculation with increased statistics).
-    \item[2024-2026] Calculation including $\Delta M_K$ with $1/a = 2.8$ GeV 
+    \item{\bf 2024-2026} Calculation including $\Delta M_K$ with $1/a = 2.8$ GeV 
     giving continuum limit result with $20$\% errors. 
-    \item[2027-2030] Move to $2+1+1$ flavors and $1/a = 3.0$, $4.0$
+    \item{\bf 2027-2030} Move to $2+1+1$ flavors and $1/a = 3.0$, $4.0$
     GeV and possibly 5 GeV with $10$\% errors. 
+\end{itemize}
 \end{itemize}
 
 
@@ -147,36 +149,36 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 % Norman Christ
 \subsection{Direct CP-violation in kaon decays ($\epsilon'$)}
 \begin{itemize}
-    \item[Motivation.] Highly sensitive to new sources of CP that may explain the matter/antimatter asymmetry in the observable Universe. Experimental result with ${\cal O}(10\%)$ precision already available.
-    \item[Long term goal.] Calculate $\epsilon'$ to a precision exceeding the current 10\% experimental value.        
-    \item[Method.] Lattice calculation of $K\to\pi\pi$ matrix elements using 3-flavor weak effective theory in finite-volume allows extraction of infinite-volume amplitudes, $A_2$ \& $A_0$, through Lellouch-L\"uscher methods. Antiperiodic ($A_2$) and novel ``G-parity'' ($A_0$) boundary conditions (BCs) ensure dominance in signal of physical, energy-conserving decay. Non-perturbative renormalization at high energies minimizes systematic error in matching to perturbation theory describing weak interaction physics. Vacuum contributions to $A_0$ require large statistics to adequately resolve. Future calculations aim to reduce systematic errors by incorporating electromagnetism and isospin-breaking effects, and an active charm quark.
+    \item{\bf Motivation:} Highly sensitive to new sources of CP that may explain the matter/antimatter asymmetry in the observable Universe. Experimental result with ${\cal O}(10\%)$ precision already available.
+    \item{\bf Long term goal:} Calculate $\epsilon'$ to a precision exceeding the current 10\% experimental value.        
+    \item{\bf Method:} Lattice calculation of $K\to\pi\pi$ matrix elements using 3-flavor weak effective theory in finite-volume allows extraction of infinite-volume amplitudes, $A_2$ \& $A_0$, through Lellouch-L\"uscher methods. Antiperiodic ($A_2$) and novel ``G-parity'' ($A_0$) boundary conditions (BCs) ensure dominance in signal of physical, energy-conserving decay. Non-perturbative renormalization at high energies minimizes systematic error in matching to perturbation theory describing weak interaction physics. Vacuum contributions to $A_0$ require large statistics to adequately resolve. Future calculations aim to reduce systematic errors by incorporating electromagnetism and isospin-breaking effects, and an active charm quark.
 
  % Norman Christ
-\item[Timeline:]
-%\begin{itemize}
-    \item[1999] First definitive observations of kaon direct CP-violation at KTeV (FermiLab) and NA48 (CERN).
-    \item[2001] Final NA48 experimental result published~\cite{NA48:2001bct}.
-    \item[1985-2002] Early lattice calculations using quenched QCD and chiral perturbation theory (ChPT) obtained results with large, uncontrolled systematic errors.
-    \item[2004] Lattice calculation with dynamical QCD and ChPT~\cite{Li:2008kc}. Large systematic errors due to ChPT discouraged continued usage of this approach.
-    \item[2011] Final KTeV experimental result published~\cite{KTeV:2010sng}. Combining experimental results gives current, best determination ${\rm Re}(\epsilon'/\epsilon)=16.6(2.3)\times 10^{-4}$.
-    \item[2011] Development of lattice approach for computing $K\to\pi\pi$ decays directly~\cite{Blum:2011pu}.
-    \item[2012] First {\it ab initio}, physical calculation of $A_2$~\cite{Blum:2011ng,Blum:2012uk}.
-    \item[2015] First continuum-limit calculation of $A_2$~\cite{Blum:2015ywa}. First {\it ab initio}, physical calculation of $A_0$ and $\epsilon'$ using G-parity BCs~\cite{RBC:2015gro}.
-    \item[2020] Improved calculation of $A_0$ and $\epsilon'$ with G-parity BCs obtained substantially smaller statistical errors and better control over systematic errors~\cite{RBC:2020kdj}. This, latest result agrees with experiment but has ${\sim}4\times$ the total error.
-    \item[2020-2024] Repeat calculation of $A_0$ on finer lattices to reduce/remove ${\cal O}(12\%)$ discretization systematic error.
-    \item[2020-2026] Develop new methods to incorporate electromagnetism and isospin-breaking effects, reducing dominant ${\cal O}(23\%)$ systematic error.
-    \item[2024-2026] Develop approach to incorporating active charm quarks with controlled discretization errors, reducing an ${\cal O}(12\%)$ systematic error.
-    \item[2026-2031] Improved measurements employing new approaches, aiming to match/exceed experimental precision by end of Snowmass '21 period. Potential discovery of tension between experiment and Standard Model may lead to new generation of kaon experiments.   
-%\end{itemize}
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 1999} First definitive observations of kaon direct CP-violation at KTeV (FermiLab) and NA48 (CERN).
+    \item{\bf 2001} Final NA48 experimental result published~\cite{NA48:2001bct}.
+    \item{\bf 1985-2002} Early lattice calculations using quenched QCD and chiral perturbation theory (ChPT) obtained results with large, uncontrolled systematic errors.
+    \item{\bf 2004} Lattice calculation with dynamical QCD and ChPT~\cite{Li:2008kc}. Large systematic errors due to ChPT discouraged continued usage of this approach.
+    \item{\bf 2011} Final KTeV experimental result published~\cite{KTeV:2010sng}. Combining experimental results gives current, best determination ${\rm Re}(\epsilon'/\epsilon)=16.6(2.3)\times 10^{-4}$.
+    \item{\bf 2011} Development of lattice approach for computing $K\to\pi\pi$ decays directly~\cite{Blum:2011pu}.
+    \item{\bf 2012} First {\it ab initio}, physical calculation of $A_2$~\cite{Blum:2011ng,Blum:2012uk}.
+    \item{\bf 2015} First continuum-limit calculation of $A_2$~\cite{Blum:2015ywa}. First {\it ab initio}, physical calculation of $A_0$ and $\epsilon'$ using G-parity BCs~\cite{RBC:2015gro}.
+    \item{\bf 2020} Improved calculation of $A_0$ and $\epsilon'$ with G-parity BCs obtained substantially smaller statistical errors and better control over systematic errors~\cite{RBC:2020kdj}. This, latest result agrees with experiment but has ${\sim}4\times$ the total error.
+    \item{\bf 2020-2024} Repeat calculation of $A_0$ on finer lattices to reduce/remove ${\cal O}(12\%)$ discretization systematic error.
+    \item{\bf 2020-2026} Develop new methods to incorporate electromagnetism and isospin-breaking effects, reducing dominant ${\cal O}(23\%)$ systematic error.
+    \item{\bf 2024-2026} Develop approach to incorporating active charm quarks with controlled discretization errors, reducing an ${\cal O}(12\%)$ systematic error.
+    \item{\bf 2026-2031} Improved measurements employing new approaches, aiming to match/exceed experimental precision by end of Snowmass '21 period. Potential discovery of tension between experiment and Standard Model may lead to new generation of kaon experiments.
+\end{itemize}
 \end{itemize}
 
 % Norman Christ/Tom Blum
 \subsection{Direct $CP$ violation in $K\to\pi\pi$ decays using periodic boundary conditions}
 \begin{itemize}
-    \item[Motivation.] Precise SM prediction of $\varepsilon'$, the measure of direct $CP$ violation in $K\to\pi\pi$ decay, which is very sensitive to new physics. 
-    \item[Long term goal.] Calculate Re($\varepsilon'/\varepsilon$) with
+    \item{\bf Motivation:} Precise SM prediction of $\varepsilon'$, the measure of direct $CP$ violation in $K\to\pi\pi$ decay, which is very sensitive to new physics. 
+    \item{\bf Long term goal:} Calculate Re($\varepsilon'/\varepsilon$) with
       a precision exceeding the current experimental value of $1.66(23)\times10^{-3}$, which roughly corresponds to 10\% precision of $A_0$, the decay amplitude with isospin-0 final state.
-    \item[Method.] Well understood lattice QCD technique with no
+    \item{\bf Method:} Well understood lattice QCD technique with no
       recognized limitation to the control of all systematic
       errors. The $K\to\pi\pi$ matrix elements with the physical kinematics are to be
       extracted by using the well developed Generalized eigenvalue problem (GEVP)
@@ -189,113 +191,120 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       charm quark and naive discretization effects, which are also significantly
       uncertain for achieving our precision goal at this point, are to be both
       reduced by calculating on finer lattices.
-\item[Timeline:]
-%\begin{itemize}
-    \item[1999] First definitive observations of kaon direct CP-violation at KTeV (FermiLab) and NA48 (CERN).
-    \item[2001] Final NA48 experimental result published~\cite{NA48:2001bct}.
-    \item[1985-2002] Early lattice calculations using quenched QCD and chiral perturbation theory (ChPT) obtained results with large, uncontrolled systematic errors.
-    \item[2004] Lattice calculation with dynamical QCD and ChPT~\cite{Li:2008kc}. Large systematic errors due to ChPT discouraged continued usage of this approach.
-    \item[2011] Final KTeV experimental result published~\cite{KTeV:2010sng}. Combining experimental results gives current, best determination ${\rm Re}(\varepsilon'/\varepsilon)=16.6(2.3)\times 10^{-4}$.
-    \item[2011] Development of lattice approach for computing $K\to\pi\pi$ decays directly~\cite{Blum:2011pu}.
-    \item[2012] First {\it ab initio}, physical calculation of $A_2$~\cite{Blum:2011ng,Blum:2012uk}.
-    \item[2015] First continuum-limit calculation of $A_2$~\cite{Blum:2015ywa}. First {\it ab initio}, physical calculation of $A_0$ and $\varepsilon'$ using G-parity BCs~\cite{RBC:2015gro}.
-    \item[2020] Improved calculation of $A_0$ and $\varepsilon'$ with G-parity BCs obtained substantially smaller statistical errors and better control over systematic errors~\cite{RBC:2020kdj}. This, latest result agrees with experiment but has ${\sim}4\times$ the total error.
-    \item[2023] Excited two-pion state that corresponds to the final state of energy-conserving $K\to\pi\pi$ decay with periodic boundary conditions (PBC) successfully extracted~\cite{Blum:2023vhp}.  First PBC result for $\varepsilon'$ with $a^{-1}=1.02$~GeV going to be released (paper almost ready).  It agrees with experiment and the G-parity result, but the precision is worse due to fewer configurations and coarser lattice used.
-    \item[2022-2024] Continue PBC calculations with more configurations and on a finer lattice of $a^{-1}=1.38$~GeV to obtain a more precise result with reduced statistical and discretization errors.
-    \item[2020-2026] Develop new methods to incorporate electromagnetism and isospin-breaking effects, reducing dominant ${\cal O}(20\%)$ systematic error.  (See item below.)
-    \item[2024-2026] Repeat calculations of $A_0$ on even finer lattices $a^{-1}=1.7, 2.3, 2.7$~GeV. 
-    \item[2026-2030] Improved measurements including isospin-breaking and electromagnetic corrections, aiming to match/exceed experimental precision. Potential discovery of a tension between experiment and the SM may prompt a new generation of $\varepsilon'$ experiments. 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 1999} First definitive observations of kaon direct CP-violation at KTeV (FermiLab) and NA48 (CERN).
+    \item{\bf 2001} Final NA48 experimental result published~\cite{NA48:2001bct}.
+    \item{\bf 1985-2002} Early lattice calculations using quenched QCD and chiral perturbation theory (ChPT) obtained results with large, uncontrolled systematic errors.
+    \item{\bf 2004} Lattice calculation with dynamical QCD and ChPT~\cite{Li:2008kc}. Large systematic errors due to ChPT discouraged continued usage of this approach.
+    \item{\bf 2011} Final KTeV experimental result published~\cite{KTeV:2010sng}. Combining experimental results gives current, best determination ${\rm Re}(\varepsilon'/\varepsilon)=16.6(2.3)\times 10^{-4}$.
+    \item{\bf 2011} Development of lattice approach for computing $K\to\pi\pi$ decays directly~\cite{Blum:2011pu}.
+    \item{\bf 2012} First {\it ab initio}, physical calculation of $A_2$~\cite{Blum:2011ng,Blum:2012uk}.
+    \item{\bf 2015} First continuum-limit calculation of $A_2$~\cite{Blum:2015ywa}. First {\it ab initio}, physical calculation of $A_0$ and $\varepsilon'$ using G-parity BCs~\cite{RBC:2015gro}.
+    \item{\bf 2020} Improved calculation of $A_0$ and $\varepsilon'$ with G-parity BCs obtained substantially smaller statistical errors and better control over systematic errors~\cite{RBC:2020kdj}. This, latest result agrees with experiment but has ${\sim}4\times$ the total error.
+    \item{\bf 2023} Excited two-pion state that corresponds to the final state of energy-conserving $K\to\pi\pi$ decay with periodic boundary conditions (PBC) successfully extracted~\cite{Blum:2023vhp}.  First PBC result for $\varepsilon'$ with $a^{-1}=1.02$~GeV going to be released (paper almost ready).  It agrees with experiment and the G-parity result, but the precision is worse due to fewer configurations and coarser lattice used.
+    \item{\bf 2022-2024} Continue PBC calculations with more configurations and on a finer lattice of $a^{-1}=1.38$~GeV to obtain a more precise result with reduced statistical and discretization errors.
+    \item{\bf 2020-2026} Develop new methods to incorporate electromagnetism and isospin-breaking effects, reducing dominant ${\cal O}(20\%)$ systematic error.  (See item below.)
+    \item{\bf 2024-2026} Repeat calculations of $A_0$ on even finer lattices $a^{-1}=1.7, 2.3, 2.7$~GeV. 
+    \item{\bf 2026-2030} Improved measurements including isospin-breaking and electromagnetic corrections, aiming to match/exceed experimental precision. Potential discovery of a tension between experiment and the SM may prompt a new generation of $\varepsilon'$ experiments. 
 \end{itemize}
+\end{itemize}
+
+
 % Norman Christ
 \subsection{Contribution of E\&M and strong isospin breaking to $\epsilon'$}
 \begin{itemize}
-    \item[Motivation.] Because of the $\Delta I=1/2$ rule, the isospin breaking corrections to the direct CP violating parameter $\epsilon'$ are enhanced by a factor of 20, increasing their usual 1\% scale to potentially 20\% and making the uncertainty in these corrections one of the dominant errors in the current standard model prediction of $\epsilon'$.
-    \item[Long term goal.] Calculate the isospin breaking corrections to $\epsilon'$ to 10\% accuracy removing this as a source of error in the prediction of $\epsilon'$.
-    \item[Method.] The addition of electromagnetism adds substantial barriers to the already challenging lattice calculation of $\epsilon'$:  i) The $I=0$ and $I=2$ $\pi\pi$ final states are mixed and the three-particle $\pi\pi\gamma$ state introduced making this a complicated, multi-channel decay. ii)  Standard lattice formulations of QED have substantial finite-volume errors while the successful lattice methods to compute $\epsilon'$ require that the calculation be performed in a volume of limited size.  iii) Adding photons substantially increases the complexity of the quantities being computed, likely requiring the use of computer generated code.
-\item[Timeline:]
-    \item[2000] KTeV and NA48 measurements of $\epsilon'$
-    \item[2017] Non-relativistic method to compute the Coulomb contribution to $\epsilon'$ devised~\cite{Christ:2017pze}.
-    \item[2019-2021] Generalize this non-relativisitic method to one that is fully relativistic~\cite{Christ:2021guf}.
-    \item[2023-2024] Explore two strategies:  i) Use lattice methods to evaluate the low energy constants needed in a chiral perturbation theory calculation~\cite{Cirigliano:2019cpi} and ii) Extend the Coulomb-gauge approach to include transverse radiation.  Begin a calculation based on the most ;promising method.
-    \item[2024-2027] Calculation of isospin breaking contributions to $\epsilon'$ to 30\% accuracy.
-    \item[2027-2030] Calculation of isospin breaking contributions to $\epsilon'$ to 10\% accuracy.
+    \item{\bf Motivation:} Because of the $\Delta I=1/2$ rule, the isospin breaking corrections to the direct CP violating parameter $\epsilon'$ are enhanced by a factor of 20, increasing their usual 1\% scale to potentially 20\% and making the uncertainty in these corrections one of the dominant errors in the current standard model prediction of $\epsilon'$.
+    \item{\bf Long term goal:} Calculate the isospin breaking corrections to $\epsilon'$ to 10\% accuracy removing this as a source of error in the prediction of $\epsilon'$.
+    \item{\bf Method:} The addition of electromagnetism adds substantial barriers to the already challenging lattice calculation of $\epsilon'$:  i) The $I=0$ and $I=2$ $\pi\pi$ final states are mixed and the three-particle $\pi\pi\gamma$ state introduced making this a complicated, multi-channel decay. ii)  Standard lattice formulations of QED have substantial finite-volume errors while the successful lattice methods to compute $\epsilon'$ require that the calculation be performed in a volume of limited size.  iii) Adding photons substantially increases the complexity of the quantities being computed, likely requiring the use of computer generated code.
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2000} KTeV and NA48 measurements of $\epsilon'$
+    \item{\bf 2017} Non-relativistic method to compute the Coulomb contribution to $\epsilon'$ devised~\cite{Christ:2017pze}.
+    \item{\bf 2019-2021} Generalize this non-relativisitic method to one that is fully relativistic~\cite{Christ:2021guf}.
+    \item{\bf 2023-2024} Explore two strategies:  i) Use lattice methods to evaluate the low energy constants needed in a chiral perturbation theory calculation~\cite{Cirigliano:2019cpi} and ii) Extend the Coulomb-gauge approach to include transverse radiation.  Begin a calculation based on the most ;promising method.
+    \item{\bf 2024-2027} Calculation of isospin breaking contributions to $\epsilon'$ to 30\% accuracy.
+    \item{\bf 2027-2030} Calculation of isospin breaking contributions to $\epsilon'$ to 10\% accuracy.
+\end{itemize}
 \end{itemize}
 
 % Norman Christ
 \subsection{Two photon exchange contribution to $K_L\to\mu^+\mu^-$}
 \begin{itemize}
-    \item[Motivation.] The $\Delta S=1$ neutral-current rare decay $K_L\to\mu^+\mu^-$ 
+    \item{\bf Motivation:} The $\Delta S=1$ neutral-current rare decay $K_L\to\mu^+\mu^-$ 
     offers an order $G_F^2$ test of the standard model in a process involving the 
     exchange of two $W$ bosons or a $W$ and a $Z$ boson.  However, a background, 
     two-photon exchange process of order $\alpha_{\mathrm{EM}}^2G_F$ contributes 
     at a similar strength to this decay and therefore must be computed if a standard 
     model prediction is to be compared with experiment.
-    \item[Long term goal.] Calculate this two-photon exchange contribution to 5\% 
+    \item{\bf Long term goal:} Calculate this two-photon exchange contribution to 5\% 
     accuracy so that the standard model prediction for the important $G_F^2$ process 
     can be compared to experiment at the 5-10\% precision comparable to the accuracy 
     allowed by the current experimental branching ratio for $K_L\to\mu^+\mu^-$: 
     BR$(K_L\to\mu^+\mu^-) = 6.84\pm0.11\times 10^{-9}$.
-    \item[Method.]  This process is similar to the hadronic light-by-light scattering 
+    \item{\bf Method:}  This process is similar to the hadronic light-by-light scattering 
     contribution to the muon.  However, new methods are needed because the 
     real-time, complex decay amplitude cannot be directly evaluated in Euclidean 
     space.  However, a well-controlled lattice QCD formulation of this calculation 
     has been developed in which the largest uncontrolled error arises from the 
     $\pi\pi\gamma$ intermediate state whose contribution is expected to be no 
     more than a few percent.
-\item[Timeline:]
-    \item[2000] Accurate measurement of $K_L\to\mu^+\mu^-$ branching 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2000} Accurate measurement of $K_L\to\mu^+\mu^-$ branching 
     ratio~\cite{E871:2000wvm}.
-    \item[2018-2019] Lattice QCD method devised~\cite{Christ:2020bzb} and 
+    \item{\bf 2018-2019} Lattice QCD method devised~\cite{Christ:2020bzb} and 
     first results obtained for the simpler $\pi^0\to e^+ e^-$ 
     decay~\cite{Christ:2020dae, Christ:2022rho}.
-    \item[2019-2022] Calculation extended to the $\Delta S=1$ process 
+    \item{\bf 2019-2022} Calculation extended to the $\Delta S=1$ process 
     $K_L\to\gamma\gamma$ and first results obtained on a single gauge 
     ensemble including only connected graphs with physical quark masses 
     but for a relatively large lattice spacing.~\cite{Zhao:2022pbs, Zhao:2022njd}
-    \item[2022-2024] First calculation of the two-photon exchange contribution 
+    \item{\bf 2022-2024} First calculation of the two-photon exchange contribution 
     to $K_L\to\mu^+ \mu^-$ on a single gauge ensemble including only connected 
     graphs with physical quark masses but for a relatively large lattice spacing.
-    \item[2025-2028] Extend the calculation to multiple lattice spacings and include 
+    \item{\bf 2025-2028} Extend the calculation to multiple lattice spacings and include 
     disconnected graphs.  Achieve 10\% precision.
-    \item[2028-2031] Employ increased statistics and improved methods to 
+    \item{\bf 2028-2031} Employ increased statistics and improved methods to 
     achieve the targeted 5\% precision.
- \end{itemize}
+\end{itemize}
+\end{itemize}
  
 \section{Hadron spectroscopy}\label{sec:hadspec}
 
 % Robert Edwards
 \subsection{Exotic light quark mesons}
 \begin{itemize}
-    \item[Motivation.] Observation of putative exotic $J^{PC}$ bosonic
+    \item{\bf Motivation:} Observation of putative exotic $J^{PC}$ bosonic
       states. Focus of GlueX@JLab, CLAS12@JLab, COMPASS@LHC. Kaon PID
       upgrade of GlueX and recommissioning starting 2020. Phase II
       including JLab Eta Factory underway through 2025. Possible Phase
       III run.  
-    \item[Long term goal.] Determine the mass and decay modes of
+    \item{\bf Long term goal:} Determine the mass and decay modes of
       putative light quark hybrid and exotic mesons. Extract resonance
       parameters of meson and baryon spectrum. Guide experimental
       searches with predictions of decay couplings.
-    \item[Method.] Resonance spectrum extracted from scattering
+    \item{\bf Method:} Resonance spectrum extracted from scattering
       amplitudes computed from finite-volume energy spectrum. Cost
       driven by annihilation quark lines computed on many
       time-slices and computation of hadronic two-point functions
       featuring a large multi-hadron operator basis utilizing the variational method. 
-\item[Timeline:]
-%\begin{itemize}
-    \item[2013] Isovector and isoscalar light quark meson and baryon
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2013} Isovector and isoscalar light quark meson and baryon
       spectrum computed with restriction to single particle basis~\cite{Dudek:2013yja}. Results featured in PDG.
-    \item[2015] First computation of resonance parameters from coupled-channel scattering
+    \item{\bf 2015} First computation of resonance parameters from coupled-channel scattering
       amplitudes of $\pi\pi/\bar{K}K$ \cite{Wilson:2015dqa}.
-    \item[2019] Phenomenological extraction of $\pi_1$ resonance from 
+    \item{\bf 2019} Phenomenological extraction of $\pi_1$ resonance from 
       parameters from partial waves of $\eta(')\pi$ measured by COMPASS~\cite{JPAC:2018zyd}.
-    \item[2022] First determination of full three-body relativistic scattering amplitude~\cite{Hansen:2020otl}
-    \item[2022] Prediction for light-quark isovector $J^{PC}=1^{-+}$ published~\cite{Woss:2020ayi}.
-    \item[2023] Upgrade of GlueX forward calorimeter.
-    \item[2024] Putative light-quark hybrid meson multiplet resonance parameters.
-    \item[2025] GlueX Phase II completed. Begin analysis of runs I and II. 
-    \item[2025] Possible Phase III GlueX run.
-    \item[2027] GlueX results based on combined data through run II.
-%\end{itemize}
+    \item{\bf 2022} First determination of full three-body relativistic scattering amplitude~\cite{Hansen:2020otl}
+    \item{\bf 2022} Prediction for light-quark isovector $J^{PC}=1^{-+}$ published~\cite{Woss:2020ayi}.
+    \item{\bf 2023} Upgrade of GlueX forward calorimeter.
+    \item{\bf 2024} Putative light-quark hybrid meson multiplet resonance parameters.
+    \item{\bf 2025} GlueX Phase II completed. Begin analysis of runs I and II. 
+    \item{\bf 2025} Possible Phase III GlueX run.
+    \item{\bf 2027} GlueX results based on combined data through run II.
+\end{itemize}
 \end{itemize}
 
 
@@ -303,51 +312,53 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 % Robert Edwards
 \subsection{Internal structure of resonant states}
 \begin{itemize}
-    \item[Motivation.] The internal structure of QCD resonant states
+    \item{\bf Motivation:} The internal structure of QCD resonant states
       is poorly understood. Their study is a focus of GlueX@JLab,
       CLAS12 MesonX@JLab, LHCb@CERN. 
-    \item[Long term goal.] Use electromagnetic probes to reveal the internal structure of resonant
+    \item{\bf Long term goal:} Use electromagnetic probes to reveal the internal structure of resonant
       states, revealing potential multi-particle
       configurations through computation of physically relevant
       processes, like transition form-factors, or more complicated
       structures such as partonic content.
-    \item[Method.] Combines QCD spectroscopy program and hadronic
+    \item{\bf Method:} Combines QCD spectroscopy program and hadronic
       structure programs. Infinite volume current matrix elements
       extracted from scattering amplitudes.
-\item[Timeline:]
-%\begin{itemize}
-    \item[2015] First computation of $\gamma\pi\rightarrow\pi\pi$ form-factor~\cite{Briceno:2015dca}. 
-    \item[2022] First computation of $\gamma K\rightarrow K\pi$
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2015} First computation of $\gamma\pi\rightarrow\pi\pi$ form-factor~\cite{Briceno:2015dca}. 
+    \item{\bf 2022} First computation of $\gamma K\rightarrow K\pi$
       form-factor~\cite{Radhakrishnan:2022ubg} featuring multi-partial
       wave form-factors.
-    \item[2024] Multi-channel study of charge radius for $a_0(980)$.
-    \item[2024] Multi-channel nucleon transition form-factors of
+    \item{\bf 2024} Multi-channel study of charge radius for $a_0(980)$.
+    \item{\bf 2024} Multi-channel nucleon transition form-factors of
       vector and axial currents.
-    \item[2025] Radiative transition form-factors of exotic isovector
+    \item{\bf 2025} Radiative transition form-factors of exotic isovector
       $\pi_1$.
-    \item[2026] GlueX electromagnetic branching fraction rates for
+    \item{\bf 2026} GlueX electromagnetic branching fraction rates for
       exotic meson states.
-%\end{itemize}
+\end{itemize}
 \end{itemize}
 
 % Robert Edwards
 \subsection{Light and strange quark baryon spectroscopy}
 \begin{itemize}
-    \item[Motivation.] Experimental $N^\ast$ program in CLAS12@JLab,
+    \item{\bf Motivation:} Experimental $N^\ast$ program in CLAS12@JLab,
       and strange quark hyperon resonances in CLAS12@JLab. Early LQCD
       spectroscopy calculations suggest rich spectrum of states - most
       of which have not been experimentally observed.
-    \item[Long term goal.] Fully resonance calculations of decay
+    \item{\bf Long term goal:} Fully resonance calculations of decay
       couplings of possible states, including potential hybrid baryon
       states identified through transition form-factors.
-    \item[Method.] 
-  \item[Timeline:]
-    \item[2012] Initial calculations of light and strange quark baryon
+    \item{\bf Method:} 
+  \item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2012} Initial calculations of light and strange quark baryon
       spectrum using single particle operators~\cite{Edwards:2011jj,Dudek:2012ag,Edwards:2012fx}.
-    \item[2023] Meson-baryon coupled channel determination of a few
+    \item{\bf 2023} Meson-baryon coupled channel determination of a few
       low lying light quark resonances.
-    \item[2024] Coupled channel low lying hyperon resonances.
-    \item[2025] Potential charm-light quark baryon resonances.
+    \item{\bf 2024} Coupled channel low lying hyperon resonances.
+    \item{\bf 2025} Potential charm-light quark baryon resonances.
+\end{itemize}
 \end{itemize}
 
 
@@ -361,7 +372,7 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 % Rajan Gupta
 \subsubsection{Nucleon charges}\label{sec:nuccharges}
 \begin{itemize}
-    \item[Motivation.] Nucleon charges $g_{A,S,T}$ arise in many
+    \item{\bf Motivation:} Nucleon charges $g_{A,S,T}$ arise in many
       low-energy description of nucleons. Flavor diagonal axial
       charges give the contributions of each quark flavor to the
       nucleon spin; tensor charges give the contribution of quark EDM
@@ -371,8 +382,8 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       measured in transversity measurements at JLAB. From the matrix elements of 1-link operators, we extract 
       the first moment of distributions, namely momentum fraction, and helicity and transversity moments. These 
       results compare favorably with their extractions from PDFs.
-    \item[Long term goal.] To calculate each of these with sub-percent accuracy. 
-    \item[Method.] All these require the calculation of connected and disconnected three-point
+    \item{\bf Long term goal:} To calculate each of these with sub-percent accuracy. 
+    \item{\bf Method:} All these require the calculation of connected and disconnected three-point
       functions comprising the insertion of appropriate quark bilinear operators between 
       nucleon source and sink operators. During analysis, remove the
       excited state contributions from these correlation functions to
@@ -380,48 +391,54 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       the desired charges. The calculation is repeated at
       multiple values of lattice spacing and pion mass and the results
       extrapolated to the physical point.
-\item[Timeline:]
-    \item[2011--2019] Lattice results reach the robustness standard to be reviewed by FLAG and average values published.
-    \item[2019-2023] Steady improvement in precision to reach few  percent accuracy and get control over excited states. 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2011--2019} Lattice results reach the robustness standard to be reviewed by FLAG and average values published.
+    \item{\bf 2019-2023} Steady improvement in precision to reach few  percent accuracy and get control over excited states. 
       Possible resolution of the discrepancy between lattice estimate of the the pion-nucleon sigma term between lattice QCD and 
       dispersive analysis published by the PNDME collaboration. 
-    \item[2023-2025] Continue to improve accuracy. 
-    \item[2030] Much higher precision analysis of neutron decay that
+    \item{\bf 2023-2025} Continue to improve accuracy. 
+    \item{\bf 2030} Much higher precision analysis of neutron decay that
       would push the search for novel scalar and tensor interactions to the $10^{-4}$ level. 
+\end{itemize}
 \end{itemize}
 
 % Rajan Gupta
 \subsubsection{Nucleon electromagnetic form factors}
 \begin{itemize}
-    \item[Motivation.] The electromagnetic form factors of the nucleons are well measured experimentally from electron 
+    \item{\bf Motivation:} The electromagnetic form factors of the nucleons are well measured experimentally from electron 
       scattering off nuclei.  There is still uncertainty in the calculation of the charge radius of the proton, i.e., 
       a difference from scattering experiments versus muonic hydrogen.  These data are far more precise compared to 
       lattice results and for the foreseeable future will provide a benchmark against which to compare lattice results to 
       and validate lattice methodology. 
-    \item[Long term goal.] To determine the electromagnetic form factors of the nucleons to match experimental precision. 
-    \item[Method.] First calculate three point functions comprising the insertion of the electromagnetic current
+    \item{\bf Long term goal:} To determine the electromagnetic form factors of the nucleons to match experimental precision. 
+    \item{\bf Method:} First calculate three point functions comprising the insertion of the electromagnetic current
       with all allowed lattice momentum insertion between the nucleon source and sink operators. During analysis, remove 
       the excited state contributions from these correlation functions to get ground state matrix elements that are 
       then decomposed into the desired form factors. The calculation is repeated at multiple values of lattice spacing and 
       pion mass and the results extrapolated to the physical point. 
-\item[Timeline:]
-    \item[2011--2021] Lattice results showed deviations from the Kelly parameterization of experimental data. 
-    \item[2021] NME results agree with Kelly parameterization of experimental data.
-    \item[2021-2023] Calculations by various groups still show an uncertainty band of $\approx 10\%$.
-    \item[2023-2025] NME and PNDME collaborations to reduce the uncertainty band to 3--5\%
-    \item[2030] EIC expected to start taking data.
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2011--2021} Lattice results showed deviations from the Kelly parameterization of experimental data. 
+    \item{\bf 2021} NME results agree with Kelly parameterization of experimental data.
+    \item{\bf 2021-2023} Calculations by various groups still show an uncertainty band of $\approx 10\%$.
+    \item{\bf 2023-2025} NME and PNDME collaborations to reduce the uncertainty band to 3--5\%
+    \item{\bf 2030} EIC expected to start taking data.
+\end{itemize}
 \end{itemize}
 
 % Sergey Syritsyn
 \subsubsection{Calculation of high-momentum nucleon form factors}
 \begin{itemize}
-    \item[Motivation.] Any data on nucleon form factors in the range of momentum transfer 5-20 GeV$^2$ will be important for understanding the transition between perturbative and nonperturbative QCD. Such data will also be illuminating for qualitative pictures of nucleons in terms of gluon-dressed constituents or diquarks.
-    \item[Long term goal.] Ab initio calculation of such form factors using QCD on a lattice, done with fully controlled systematic errors, is necessary to fill the gap between theory and ongoing experiments. Comparison to experimental results will also reveal and help address any systematic uncertainties in calculations with high-momentum hadron states on a lattice such as calculations of PDFs/GPDs using LaMET and similar approaches.
-    \item[Method.] We employ standard lattice techniques together with some methods (e.g., momentum-boosted states) to improve overlap with large-momentum nucleon ground state. We use Breit frame kinematics to reach maximal possible momentum transfer.
-\item[Timeline:]
-    \item[2016-2023] We have performed calculations of electric and magnetic form factors at three values of lattice spacing and pion masses down to 170 MeV. We have found qualitative agreement in the dependence of the proton form factor ratios $G_{Ep}/G_{Mp}$ and $F_{1p}/F_{2p}$. Some agreement is also evident in the neutron case for $G_{En}/G_{Mn}$. While this agreement is reassuring, the values of the form factors themselves overshoot experiment by factor 2-2.5 for momenta $Q^2$ above 4 GeV$^2$. This is probably due to large contributions of the excited states, since we observe very little dependence on the lattice spacing and the pion mass.
-    \item[2023-onward] We plan to increase the statistical precision and extend the range of nucleon correlators in order to improve the control over excited states. In addition, we plan to study the so-called disconnected diagrams (contributions to the isoscalar $(p+n)$ channel) and the leading-order $O(a)$ discretization corrections.
-    \item[Relevant experiments] have been performed at CEBAF (JLab@12 GeV) to measure electromagnetic form factors up to 18 GeV$^2$. Results for the magnetic form factor of the proton have been published.
+    \item{\bf Motivation:} Any data on nucleon form factors in the range of momentum transfer 5-20 GeV$^2$ will be important for understanding the transition between perturbative and nonperturbative QCD. Such data will also be illuminating for qualitative pictures of nucleons in terms of gluon-dressed constituents or diquarks.
+    \item{\bf Long term goal:} Ab initio calculation of such form factors using QCD on a lattice, done with fully controlled systematic errors, is necessary to fill the gap between theory and ongoing experiments. Comparison to experimental results will also reveal and help address any systematic uncertainties in calculations with high-momentum hadron states on a lattice such as calculations of PDFs/GPDs using LaMET and similar approaches.
+    \item{\bf Method:} We employ standard lattice techniques together with some methods (e.g., momentum-boosted states) to improve overlap with large-momentum nucleon ground state. We use Breit frame kinematics to reach maximal possible momentum transfer.
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2016-2023} We have performed calculations of electric and magnetic form factors at three values of lattice spacing and pion masses down to 170 MeV. We have found qualitative agreement in the dependence of the proton form factor ratios $G_{Ep}/G_{Mp}$ and $F_{1p}/F_{2p}$. Some agreement is also evident in the neutron case for $G_{En}/G_{Mn}$. While this agreement is reassuring, the values of the form factors themselves overshoot experiment by factor 2-2.5 for momenta $Q^2$ above 4 GeV$^2$. This is probably due to large contributions of the excited states, since we observe very little dependence on the lattice spacing and the pion mass.
+    \item{\bf 2023-onward} We plan to increase the statistical precision and extend the range of nucleon correlators in order to improve the control over excited states. In addition, we plan to study the so-called disconnected diagrams (contributions to the isoscalar $(p+n)$ channel) and the leading-order $O(a)$ discretization corrections.
+    \item{\bf Relevant experiments} have been performed at CEBAF (JLab@12 GeV) to measure electromagnetic form factors up to 18 GeV$^2$. Results for the magnetic form factor of the proton have been published.
+\end{itemize}
 \end{itemize}
 
 \subsection{Axial Form Factors}\label{sec:axff}
@@ -429,39 +446,43 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 % Rajan Gupta
 \subsubsection{NME, PNDME Collaborations}
 \begin{itemize}
-    \item[Motivation.] The axial form factors of the nucleons are not well measured experimentally and are
+    \item{\bf Motivation:} The axial form factors of the nucleons are not well measured experimentally and are
       needed to few percent accuracy to calculate the neutrino-nucleus cross-section for experiments such as DUNE, T2K, etc., to 
       reach their science goals. Large scale simulations of lattice QCD are the current 
       best method to determine these directly from QCD and the methodology for the 
       calculations is mature. 
-    \item[Long term goal.] To determine the axial form factors of the nucleons to a few percent 
-    \item[Method.] First calculate three point functions comprising the insertion of the axial vector and pseudoscalar currents 
+    \item{\bf Long term goal:} To determine the axial form factors of the nucleons to a few percent 
+    \item{\bf Method:} First calculate three point functions comprising the insertion of the axial vector and pseudoscalar currents 
       with allowed lattice  momentum insertion between the nucleon source and sink operators. During analysis, remove 
       the excited state contributions from these correlation functions to get ground state matrix elements that are 
       then decomposed into the desired form factors. The calculation is repeated at multiple values of lattice spacing and 
       pion mass and the results extrapolated to the physical point. 
-\item[Timeline:]
-    \item[2017] Demonstration that the standard method of analysis gives form factors that do not satisfy PCAC.
-    \item[2019] Cause of failure identified to be the contributions of multihadron ($N\pi, N\pi\pi, \ldots$) states 
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2017} Demonstration that the standard method of analysis gives form factors that do not satisfy PCAC.
+    \item{\bf 2019} Cause of failure identified to be the contributions of multihadron ($N\pi, N\pi\pi, \ldots$) states 
       and a data driven method to remove them identified.
-    \item[2021-2023] Calculations done by a number of lattice collaborations that agree within $1\sigma$ and give results
+    \item{\bf 2021-2023} Calculations done by a number of lattice collaborations that agree within $1\sigma$ and give results
       with an uncertainty band of $\approx 10\%$.
-    \item[2023-2025] NME and PNDME collaborations to reduce the uncertainty band to 3--5\%
-    \item[2030] DUNE expected to start taking data.
+    \item{\bf 2023-2025} NME and PNDME collaborations to reduce the uncertainty band to 3--5\%
+    \item{\bf 2030} DUNE expected to start taking data.
+\end{itemize}
 \end{itemize}
 
 \subsubsection{Fermilab Lattice Collaboration}
 \begin{itemize}
-   \item[Motivation:] Explore feasibility of nucleon-matrix-element calculations with staggered valence quarks, motivated by the neutrino-scattering experiments listed in the previous item.
-   \item[Long term goal.] Axial charge $g_A$ and axial form factor with the HISQ action for valence quarks, using MILC's $2+1+1$-flavor ensembles.
-   \item[Method:] Staggered fermions have a more complicated symmetry structure than Wilson-like quarks (including domain-wall, twisted-mass, clover, \ldots), making nucleon operators more complicated to construct.  While we have solved this problem for the needed two- and three-point calculations, the approach does not turn out to enjoy the computational savings that staggered fermions provide for mesons.
-    \item[Computing:] Work on ensembles with $a\approx0.15$ and 0.12~fm were carried out on USQCD resources (FNAL~LQ1, BNL~Sklake, and BNL~KNL), while work on ensembles with $a\approx0.09$ and 0.06~fm were carried out on LCF resources (NERSC Cori, XSEDE Stampede2, ALCF Theta).
-\item[Timeline:]
-   \item[2019] Calculation of the nucleon mass at three spacings with physical quark mass~\cite{Lin:2019pia}; at the time (and possibly still), this was the most precise calculation of the nucleon mass.
-   \item[2021] Demonstration calculation of the axial charge $g_A$ on the physical-quark-mass HISQ ensemble with $a\approx0.12$~fm~\cite{Lin:2020wko}.
-   \item[2023] Calculation of $g_A$ at four spacings ($a\approx0.15$--0.06~fm) with physical quark mass, with update to the nucleon mass.
-   \item[2023] Demonstration calculation of the axial charge $g_A$ on the physical-quark-mass HISQ ensemble with $a\approx0.12$~fm~\cite{Lin:2020wko}.
-\item[Outlook:] The all-HISQ approach to baryons seems not to be cost-effective enough to justify the overhead in coding and analysis.
+   \item{\bf Motivation:} Explore feasibility of nucleon-matrix-element calculations with staggered valence quarks, motivated by the neutrino-scattering experiments listed in the previous item.
+   \item{\bf Long term goal:} Axial charge $g_A$ and axial form factor with the HISQ action for valence quarks, using MILC's $2+1+1$-flavor ensembles.
+   \item{\bf Method:} Staggered fermions have a more complicated symmetry structure than Wilson-like quarks (including domain-wall, twisted-mass, clover, \ldots), making nucleon operators more complicated to construct.  While we have solved this problem for the needed two- and three-point calculations, the approach does not turn out to enjoy the computational savings that staggered fermions provide for mesons.
+    \item{\bf Computing:} Work on ensembles with $a\approx0.15$ and 0.12~fm were carried out on USQCD resources (FNAL~LQ1, BNL~Sklake, and BNL~KNL), while work on ensembles with $a\approx0.09$ and 0.06~fm were carried out on LCF resources (NERSC Cori, XSEDE Stampede2, ALCF Theta).
+\item{\bf Timeline:}
+\begin{itemize}
+   \item{\bf 2019} Calculation of the nucleon mass at three spacings with physical quark mass~\cite{Lin:2019pia}; at the time (and possibly still), this was the most precise calculation of the nucleon mass.
+   \item{\bf 2021} Demonstration calculation of the axial charge $g_A$ on the physical-quark-mass HISQ ensemble with $a\approx0.12$~fm~\cite{Lin:2020wko}.
+   \item{\bf 2023} Calculation of $g_A$ at four spacings ($a\approx0.15$--0.06~fm) with physical quark mass, with update to the nucleon mass.
+   \item{\bf 2023} Demonstration calculation of the axial charge $g_A$ on the physical-quark-mass HISQ ensemble with $a\approx0.12$~fm~\cite{Lin:2020wko}.
+\item{\bf Outlook:} The all-HISQ approach to baryons seems not to be cost-effective enough to justify the overhead in coding and analysis.
+\end{itemize}
 \end{itemize}
 
 
@@ -471,7 +492,7 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 % Rajan Gupta
 \subsubsection{Contributions of CP violating operators to nucleon EDM}
 \begin{itemize}
-    \item[Motivation.] The CP violation in the CKM quark mixing is too
+    \item{\bf Motivation:} The CP violation in the CKM quark mixing is too
       small to generate the observed baryon asymmetry in the observed
       universe.  BSM models have new sources of CP violation, each of
       which contribute to nEDM. These interactions and their couplings
@@ -485,10 +506,10 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       couplings in various BSM theories.  These viable BSM models can
       then be analyzed to determine if they are further consistent
       with the generation of the observed baryon asymmetry.
-    \item[Long term goal.] To calculate the matrix elements of all low
+    \item{\bf Long term goal:} To calculate the matrix elements of all low
       energy effective operators of dimension six 
       and smaller that contribute to the nucleon electric dipole moment. 
-    \item[Method.] This requires calculating three- and four- point
+    \item{\bf Method:} This requires calculating three- and four- point
       functions comprising the insertion of the electromagnetic
       current with finite CP violating operators with finite momentum
       insertion between the nucleon source and sink operators to be
@@ -500,26 +521,28 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       $\epsilon $ is the coupling strength of the operator. Repeat the
       calculation at multiple values of lattice spacing and pion mass
       and extrapolate the results to the physical point.
-\item[Timeline:]
-    \item[Pre 2017] The first lattice calculations set up the
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf Pre 2017} The first lattice calculations set up the
       framework but did not include a phase in the definition of the
       nucleon spinor, which lead to wrong results.  
-    \item[2017-2023] Focus on error reduction in the extraction of
+    \item{\bf 2017-2023} Focus on error reduction in the extraction of
       $F_3$ parameterization of experimental data. Understand and remove 
       the contributions of multihadron ($N\pi,
       N\pi\pi, \ldots$) states. 
-    \item[2021-2023] Calculations from a number of collaboration for
+    \item{\bf 2021-2023} Calculations from a number of collaboration for
       the Theta term with different levels of control over signal and
       systematics.  
-    \item[2023-2025] To get a robust signal at near physical quark masses. 
-    \item[2030] Expect a factor of 10 reduction in the upper bound on
+    \item{\bf 2023-2025} To get a robust signal at near physical quark masses. 
+    \item{\bf 2030} Expect a factor of 10 reduction in the upper bound on
       neutron EDM and maybe a value.  
+\end{itemize}
 \end{itemize}
 
 % Sergey Syritsyn
 \subsubsection{Quark-gluon CP violating contributions}
 \begin{itemize}
-    \item[Motivation.] Neutron and proton electric dipole moments
+    \item{\bf Motivation:} Neutron and proton electric dipole moments
       (EDMs) are the most precise probes of CP violation in QCD and
       beyond-the SM physics. The latter is important for finding
       plausible scenarios of baryogenesis and understanding the origin
@@ -527,19 +550,20 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       induced by different sources of CP violation is crucial to using
       experimental bounds to constrain new types of CP-violating
       interactions. 
-    \item[Long term goal] is finding contributions to nucleon EDMs of
+    \item{\bf Long term goal} is finding contributions to nucleon EDMs of
       effective quark-gluon CPv operators that may be induced by new
       physics. These effective CPv interactions are quark EDMs, quark
       and gluon chromo-EDMs, QCD theta-term, and 4-quark
       interactions. 
-    \item[Method.] We use the background-field method in which the
+    \item{\bf Method:} We use the background-field method in which the
       energy (mass) of a nucleon is shifted due to induced EDM. This
       method may have comparative advantage compared to computing
       electric dipole form factors that have to be extrapolated to the
       forward limit. In addition, it may be simpler to implement in
       the case of four-quark operators. 
-\item[Timeline:]
-    \item[2016-2023] We have successfully demonstrated that the
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2016-2023} We have successfully demonstrated that the
       background field method is at least comparable in precision to
       the traditional method of computing neutron EDM induced by the
       QCD theta-term.We have implemented sophisticated sampling
@@ -547,16 +571,17 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
       approximation of the Dirac equation. We have performed
       calculation of the neutron EDM using chirally-symmetric
       fermions. 
-    \item[2023-onward] We plan to extend our calculations of
+    \item{\bf 2023-onward} We plan to extend our calculations of
       theta-QCD-induced neutron EDM to the physical point, where the
       low-eigenmode approximation is expected to be even more
       efficient. We also plan to start calculations involving 4-quark
       CPv operators. 
-    \item[Experiments] are expected to improve bounds on neutron EDMs
+    \item{\bf Experiments} are expected to improve bounds on neutron EDMs
       within the current decade. It is particularly important to
       improve our theoretical knowledge of neutron EDM contributions
       in the same time frame in order to constrain proposed models of
       novel CP-violating interactions and baryogenesis scenarios. 
+\end{itemize}
 \end{itemize}
 
 
@@ -565,33 +590,34 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 % Xiang Gao
 \subsubsection{Internal structure of Goldstone mesons}
 \begin{itemize}
-    \item[Motivation.] Studying the 3D-structure of hadrons and understanding the partonic origin of hard exclusive processes are among the goals of the Jefferson Lab 12 GeV program and the future Electron-Ion Collider (EIC). The pion and kaon, as the pseudo-Goldstone modes of QCD, play a critical role in understanding the physics of asymptotic freedom and chiral symmetry-breaking in QCD from the fundamental quark-gluon interactions.
+    \item{\bf Motivation:} Studying the 3D-structure of hadrons and understanding the partonic origin of hard exclusive processes are among the goals of the Jefferson Lab 12 GeV program and the future Electron-Ion Collider (EIC). The pion and kaon, as the pseudo-Goldstone modes of QCD, play a critical role in understanding the physics of asymptotic freedom and chiral symmetry-breaking in QCD from the fundamental quark-gluon interactions.
     
-    \item[Long term goal.] First principles calculations of the pion and kaon distribution amplitudes and form factors with large momentum transfer to explore the transition from non-perturbative QCD to perturbative QCD. Precision calculations of the pion valence quark PDFs and GPDs, providing insights into the quark momentum fractions and 3-dimensional distributions in the pseudo-Goldstone bosons.
+    \item{\bf Long term goal:} First principles calculations of the pion and kaon distribution amplitudes and form factors with large momentum transfer to explore the transition from non-perturbative QCD to perturbative QCD. Precision calculations of the pion valence quark PDFs and GPDs, providing insights into the quark momentum fractions and 3-dimensional distributions in the pseudo-Goldstone bosons.
     
-    \item[Method.] Calculation of pion/kaon form factors in the Breit frame with optimized quark smearing to achieve large momentum transfers. Computation of the pion quasi-DA, PDF, GPD and kaon quasi-DA matrix elements with large momentum, and deriving the light-cone quantities using large momentum effective theory and short distance factorization.
+    \item{\bf Method:} Calculation of pion/kaon form factors in the Breit frame with optimized quark smearing to achieve large momentum transfers. Computation of the pion quasi-DA, PDF, GPD and kaon quasi-DA matrix elements with large momentum, and deriving the light-cone quantities using large momentum effective theory and short distance factorization.
       
-\item[Timeline:]
-    \item[2019] Calculation of the pion valence quark distribution with a 300 MeV pion mass from a fine lattice within the LaMET framework.~\cite{Izubuchi:2019lyk}
-    \item[2020] Calculation of the pion valence quark distribution with a continuum extrapolation using the LaMET and short distance factorization frameworks.~\cite{Gao:2020ito}
-    \item[2021] Calculation of the structural differences between the pion and its radial excitation.~\cite{Gao:2021hvs}
-    \item[2021] Calculation of the pion form factors and charge radius with small momentum transfer at the physical point.~\cite{Gao:2021xsm}
-    \item[2022] Calculation of the pion distribution amplitude at the physical point within the short distance factorization framework.~\cite{Gao:2022vyh}
-    \item[2022] Calculation of the Bjorken-x dependence of the pion valence PDF with controlled systematics.~\cite{Gao:2021dbh}
-    \item[2022] Calculation of the pion valence PDF with a continuum extrapolation, physical quark masses and NNLO matching.~\cite{Gao:2022iex}
-    \item[2023] Calculation of the kaon distribution amplitude at the physical point.
-    \item[2023] First calculation of the pion form factors at the physical point with large momentum transfer.
-    \item[2024] First calculation of the kaon form factors at the physical point with large momentum transfer.
-    \item[2025] Calculation of pion GPDs with a 300 MeV pion mass.
-    \item[2027] Calculation of pion GPDs at the physical point.
-    
-    \end{itemize}
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2019} Calculation of the pion valence quark distribution with a 300 MeV pion mass from a fine lattice within the LaMET framework.~\cite{Izubuchi:2019lyk}
+    \item{\bf 2020} Calculation of the pion valence quark distribution with a continuum extrapolation using the LaMET and short distance factorization frameworks.~\cite{Gao:2020ito}
+    \item{\bf 2021} Calculation of the structural differences between the pion and its radial excitation.~\cite{Gao:2021hvs}
+    \item{\bf 2021} Calculation of the pion form factors and charge radius with small momentum transfer at the physical point.~\cite{Gao:2021xsm}
+    \item{\bf 2022} Calculation of the pion distribution amplitude at the physical point within the short distance factorization framework.~\cite{Gao:2022vyh}
+    \item{\bf 2022} Calculation of the Bjorken-x dependence of the pion valence PDF with controlled systematics.~\cite{Gao:2021dbh}
+    \item{\bf 2022} Calculation of the pion valence PDF with a continuum extrapolation, physical quark masses and NNLO matching.~\cite{Gao:2022iex}
+    \item{\bf 2023} Calculation of the kaon distribution amplitude at the physical point.
+    \item{\bf 2023} First calculation of the pion form factors at the physical point with large momentum transfer.
+    \item{\bf 2024} First calculation of the kaon form factors at the physical point with large momentum transfer.
+    \item{\bf 2025} Calculation of pion GPDs with a 300 MeV pion mass.
+    \item{\bf 2027} Calculation of pion GPDs at the physical point.
+\end{itemize}
+\end{itemize}
 
     
 % David Richards
 \subsubsection{Internal structure of mesons and nucleons}\label{sec:meshadstruct}
 \begin{itemize}
-   \item[Motivation.] A quantitative understanding of the internal
+   \item{\bf Motivation:} A quantitative understanding of the internal
      structure of hadrons, including the distribution of charge, spin
      and mass, in terms of the quarks and gluons of QCD is a central
      goal of nuclear physics, and key to high-energy physics through
@@ -600,38 +626,40 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
      experiments at JLab\@12 GeV focused on isovector GPDs, and
      understanding the gluonic contributions to hadron structure a
      emblematic problem at the future EIC.
-   \item[Long term goal.] First principles calculations of the key
+   \item{\bf Long term goal:} First principles calculations of the key
      measures of one-dimensional and three-dimensional hadron
      structure encapsulated in the Parton Distribution Functions (PDFs),
      Generalized Parton Distribution Functions (GPDs) and
      Transverse-Momentum-Dependent Functions (TMDs).  Performing
      computations of a precision that can both confront experiment,
      and complement experiment in global analysis.
-   \item[Method.] Computation of the three-point matrix elements of quark- and
+   \item{\bf Method:} Computation of the three-point matrix elements of quark- and
      gluonic operators, and their analysis to provide
      Bjorken-$x$-dependent distributions within the
      short-distance-factorization/pseudo-PDF framework.  Exploitation
      of the ``distillation'' both to fully sample lattices, and
      provide control over excited-state contributions.
-\item[Timeline:]
-   \item[2017] First calculation of the nucleon unpolarized PDF within
+\item{\bf Timeline:}
+\begin{itemize}
+   \item{\bf 2017} First calculation of the nucleon unpolarized PDF within
      the pseudo-PDF framework~\cite{Orginos:2017kos}.
-   \item[2020] Calculation of unpolarized nucleon PDF at close-to-physical
+   \item{\bf 2020} Calculation of unpolarized nucleon PDF at close-to-physical
      quark masses~\cite{Joo:2020spy}.
-   \item[2021] Calculation of the Unpolarized Gluon Distribution in
+   \item{\bf 2021} Calculation of the Unpolarized Gluon Distribution in
      the Nucleon~\cite{HadStruc:2021wmh}.
-   \item[2022] Calculation of the gluon helicity distribution in
+   \item{\bf 2022} Calculation of the gluon helicity distribution in
      the nucleon~\cite{HadStruc:2022yaw}
-   \item[2022]Combined global analysis of lattice QCD and
+   \item{\bf 2022} Combined global analysis of lattice QCD and
      experimental data to compute the Pion PDF~\cite{JeffersonLabAngularMomentumJAM:2022aix}.
-   \item[2024] Calculation of the isosinglet unpolarized and
+   \item{\bf 2024} Calculation of the isosinglet unpolarized and
      polarized nucleon PDF.
-   \item[2024] First Calculation of the nucleon Generalized Parton
+   \item{\bf 2024} First Calculation of the nucleon Generalized Parton
      Distributions within the pseudo-PDF framework.
-   \item[2027] E12-06-119 ``Deeply Virtual Compton Scattering with
+   \item{\bf 2027} E12-06-119 ``Deeply Virtual Compton Scattering with
      CLAS at 11 GeV''
-   \item[2027] SOLID detector at Jefferson Lab
-     \item[2030] Electron-Ion Collider at BNL.
+   \item{\bf 2027} SOLID detector at Jefferson Lab
+   \item{\bf 2030} Electron-Ion Collider at BNL.
+\end{itemize}
 \end{itemize}
 
 
@@ -639,48 +667,50 @@ B    \item[2021] E989 announces first results with 0.48 ppm precision. Combined 
 \subsubsection{Transverse momentum-dependent parton distribution
 (TMD) observables.}
 \begin{itemize}
-\item[Motivation.] TMDs constitute one of the pillars of the description
+\item{\bf Motivation:} TMDs constitute one of the pillars of the description
 of hadron structure; they encode the three-dimensional distribution of
 momenta among the partons inside a hadron. They enter the cross sections
 of processes such as semi-inclusive deep inelastic scattering (SIDIS) and
 the Drell-Yan process. Their determination constitutes a focus of both the
 current JLab 12 Gev program as well as the experimental program at the EIC.
-\item[Long term goal.] Calculation of TMD observables to
+\item{\bf Long term goal:} Calculation of TMD observables to
 complement and augment phenomenological analyses of experimental data,
 and to help guide follow-on experimental campaigns.
-\item[Method.] Lattice QCD evaluation of hadronic matrix elements of
+\item{\bf Method:} Lattice QCD evaluation of hadronic matrix elements of
 bilocal operators containing staple-shaped gauge connections. Extraction
 of invariant amplitudes that determine ratios of Fourier-transformed TMDs.
-\item[Timeline:]
-\item[2011] First calculation of Sivers and Boer-Mulders observables.
-\item[2015] Extrapolation of a TMD observable to the physical, infinite
+\item{\bf Timeline:}
+\begin{itemize}
+\item{\bf 2011} First calculation of Sivers and Boer-Mulders observables.
+\item{\bf 2015} Extrapolation of a TMD observable to the physical, infinite
 rapidity difference limit.
-\item[2017] Investigation of universality of lattice TMD observables.
-\item[2019] Evaluation of TMD observables at the physical pion mass.
-\item[2022] Completion of leading-twist set of nucleon TMD observables by
+\item{\bf 2017} Investigation of universality of lattice TMD observables.
+\item{\bf 2019} Evaluation of TMD observables at the physical pion mass.
+\item{\bf 2022} Completion of leading-twist set of nucleon TMD observables by
 including longitudinal nucleon polarization.
-\item[2024] Evaluation of gauge connection structures beyond staple shape,
+\item{\bf 2024} Evaluation of gauge connection structures beyond staple shape,
 relevant for processes beyond SIDIS and Drell-Yan.
-\item[2024] Evaluation of longitudinal momentum fraction $x$-dependence
+\item{\bf 2024} Evaluation of longitudinal momentum fraction $x$-dependence
 of the Sivers shift.
-\item[2027] Inclusion of Lattice TMD observables with controlled systematic
+\item{\bf 2027} Inclusion of Lattice TMD observables with controlled systematic
 uncertainties in global analyses of experimental data.
+\end{itemize}
 \end{itemize}
 
 
 % Michael Wagman
 \subsubsection{Collins-Soper kernel for TMD evolution}
 \begin{itemize}
-    \item[Motivation.] The Collins-Soper kernel relates the
+    \item{\bf Motivation:} The Collins-Soper kernel relates the
       transverse-momentum-dependent distributions (TMDs) of hadrons at
       different energy scales, which is a crucial non-perturbative
       input for global analyses to understand the 3D structure of the
       proton. 
-    \item[Long term goal.] Calculate the Collins-Soper kernel at
+    \item{\bf Long term goal:} Calculate the Collins-Soper kernel at
       physical pion mass with a $\sim 10\%$ precision, which can be
       compared to the experimental results from the Electron-Ion
       Collider. 
-    \item[Method.] Lattice calculation and renormalization of the
+    \item{\bf Method:} Lattice calculation and renormalization of the
       matrix elements of quasi-TMD correlators in a highly boosted
       hadron state. The quasi-TMD correlators are defined from quark
       and gluon bilinear operators with a staple-shaped Wilson line
@@ -692,86 +722,93 @@ uncertainties in global analyses of experimental data.
       quasi-TMDs, we can also use the TMD wave function, which is a
       vacuum to hadron amplitude of the quasi-TMD correlator, to
       extract the Collins-Soper kernel. 
-\item[Timeline:]
-    \item[2019] Study of the renormalization and mixing of the
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2019} Study of the renormalization and mixing of the
       staple-shaped quasi-TMD correlator on the
       lattice~\cite{Shanahan:2019zcq}. 
-    \item[2020] First exploratory calculation of the quark
+    \item{\bf 2020} First exploratory calculation of the quark
       Collins-Soper kernel on a quenched lattice ensemble from the
       quasi-TMDs~\cite{Shanahan:2020zxr}. 
-    \item[2021] First lattice calculation of the quark Collins-Soper
+    \item{\bf 2021} First lattice calculation of the quark Collins-Soper
       kernel with dynamical fermions at unphysical pion mass of around
       500 MeV from the quasi-TMDs~\cite{Shanahan:2021tst}. 
-    \item[2022-2023] Ongoing lattice calculation of the quark
+    \item{\bf 2022-2023} Ongoing lattice calculation of the quark
       Collins-Soper kernel at the physical point from the quasi-TMD
       wave functions. 
-    \item[2023-2025] Improving the precision of the quark
+    \item{\bf 2023-2025} Improving the precision of the quark
       Collins-Soper kernel to less than $10\%$ with physical
       extrapolations and higher hadron momenta. 
-    \item[2023-2026] Develop and implement the method to calculate the gluon Collins-Soper kernel.
-    \item[2023-2026] Lattice calculation of the quark TMD soft factor.
+    \item{\bf 2023-2026} Develop and implement the method to calculate the gluon Collins-Soper kernel.
+    \item{\bf 2023-2026} Lattice calculation of the quark TMD soft factor.
+\end{itemize}
 \end{itemize}
 
 % Michael Engelhardt    
 \subsubsection{Direct evaluation of parton orbital angular momentum (OAM) in
 the proton}
 \begin{itemize}
-\item[Motivation.] The proton spin puzzle is a touchstone of our
+\item{\bf Motivation:} The proton spin puzzle is a touchstone of our
 understanding of proton structure. Compared to the parton spin
 contributions, the parton OAM contributions are less straightforward
 to access directly, requiring the evaluation of either generalized
 transverse momentum-dependent parton distribution (GTMD) observables
 or twist-three generalized parton distribution (GPD) observables.
 Lattice QCD provides an avenue to obtain these observables.
-\item[Long term goal.] Evaluation of GTMD and twist-three GPD observables
+\item{\bf Long term goal:} Evaluation of GTMD and twist-three GPD observables
 to determine parton OAM in the proton.
-\item[Method.] Lattice QCD evaluation of hadronic matrix elements of
+\item{\bf Method:} Lattice QCD evaluation of hadronic matrix elements of
 bilocal operators containing both straight and staple-shaped gauge
 connections; these determine the Ji and the Jaffe-Manohar definitions
 of parton OAM, respectively.
-\item[Timeline:]
-\item[2016] First evaluation of both Ji and Jaffe-Manohar quark OAM from
+\item{\bf Timeline:}
+\begin{itemize}
+\item{\bf 2016} First evaluation of both Ji and Jaffe-Manohar quark OAM from
 GTMD observables.
-\item[2018] Control of systematic uncertainties in the momentum transfer
+\item{\bf 2018} Control of systematic uncertainties in the momentum transfer
 dependence of the relevant GTMD through a direct derivative method,
 leading to quark angular momentum sum rule being satisfied.
-\item[2021] Evaluation of quark spin-orbit correlations in the proton.
-\item[2023] Evaluation of quark OAM in the proton via twist-three GPDs.
-\item[2024] Enhancing control of systematic uncertainties in Lattice QCD
+\item{\bf 2021} Evaluation of quark spin-orbit correlations in the proton.
+\item{\bf 2023} Evaluation of quark OAM in the proton via twist-three GPDs.
+\item{\bf 2024} Enhancing control of systematic uncertainties in Lattice QCD
 evaluations of quark OAM; quark mass dependence, excited state effects.
-\item[2027] Evaluation of gluon OAM.
+\item{\bf 2027} Evaluation of gluon OAM.
 \end{itemize}
+\end{itemize}
+
 
 % Bigeng Wang
 \subsubsection{Gravitational form factors of the energy momentum tensor}
 \begin{itemize}
-    \item[Motivation.] The gravitational form factors (GFF) of the
+    \item{\bf Motivation:} The gravitational form factors (GFF) of the
       energy momentum tensor (EMT) encompass the issues of spin and
       mass decompositions. They also contain information about the
       pressure distribution, the sigma terms, and total pressure
       associated with the trace anomaly. 
-    \item[Long term goal.] Provide Standard Model predictions of the
+    \item{\bf Long term goal:} Provide Standard Model predictions of the
       gravitational form factors of hadron energy-momentum
       tensor. These results can be confirmed by the experimental GPD
       and  photo-production of J/$\Psi$ at the threshold. 
-    \item[Method.] Lattice calculations with grid source propagators
+    \item{\bf Method:} Lattice calculations with grid source propagators
       and low-mode substitution (LMS) of hadronic two- and three-
       point functions using domain-wall fermion ensembles and valence
       overlap fermions. The form factors are measured at several
       lattice spacings and quark masses, and with a variety of current
       operators.  
-\item[Timeline:]
-    \item[2021] Lattice calculation of nucleon energy-momentum tensor
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2021} Lattice calculation of nucleon energy-momentum tensor
       form factors using overlap fermions, including calculation of
       momentum fractions and angular momentum fractions for the quarks
       and glue. 
-    \item[2022-2023] Calculation of the gluon trace anomaly form
+    \item{\bf 2022-2023} Calculation of the gluon trace anomaly form
       factors for pion, $\rho$ meson and nucleon using domain-wall
       fermion ensemble and valence overlap fermions at near-physical
       pion mass. 
-    \item[2024-2027] Calculations of the full gravitational form
+    \item{\bf 2024-2027} Calculations of the full gravitational form
       factors of the hadron EMT, i,e, A, B, D, and quark scalar form
       factors in addition to the trace anomaly FF.  
+\end{itemize}
 \end{itemize}
 
 
@@ -780,7 +817,7 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 % Keh-Fei Liu
 \subsection{Neutrino-nucleon Scattering from the Hadronic Tensor}
 \begin{itemize}
-    \item[Motivation.] The formalism of hadronic tensor in lattice
+    \item{\bf Motivation:} The formalism of hadronic tensor in lattice
       QCD~\cite{Liu:1993cv,Liu:1999ak} offers an opportunity to
       directly evaluate the cross-sections of neutrino-nucleon
       scattering in the elastic and resonance regions and potentially
@@ -790,72 +827,77 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
       calculation. The latter is needed for neutrino experiments at
       DUNE to provide theoretical constraints when analyzing data from
       neutrino oscillation experiments. 
-    \item[Long term goal.] Calculate precise neutrino-nucleon
+    \item{\bf Long term goal:} Calculate precise neutrino-nucleon
       scattering cross-sections in all the neutrino energy regions
       from the threshold to 7 GeV. This should help improve the
       theoretical understanding of the neutrino-nucleus scattering
       cross-sections and maximize the discovery potential of neutrino
       oscillation experiments. 
-    \item[Method.]  Calculation of matrix elements using four-point
+    \item{\bf Method:}  Calculation of matrix elements using four-point
       correlation functions with vector and axial two-current
       insertions to the nucleon propagator at different space-time
       positions to obtain the Euclidean hadronic tensor. Bayesian
       reconstruction will be employed to solve the inverse problem and
       obtain the spectral decomposition for the hadronic tensor in the
       Minkowski space. 
-    \item[Timeline:]
-    \item[1993,1999] The hadronic tensor was formulated in the
+    \item{\bf Timeline:}
+    \begin{itemize}
+    \item{\bf 1993,1999} The hadronic tensor was formulated in the
       Euclidean path-integral formalism~\cite{Liu:1993cv}. A new
       parton degree of freedom -- connected sea partons, was
       discovered and the operator product expansion was
       obtained~\cite{Liu:1999ak}. 
-  \item[2017] The parton evolution equation is generalized to include
+  \item{\bf 2017} The parton evolution equation is generalized to include
     the connected-sea partons~\cite{Liu:2017lpe}. 
-    \item[2019] First exploratory calculation of the hadronic tensor
+    \item{\bf 2019} First exploratory calculation of the hadronic tensor
       was carried out using Backus-Gilbert, Maximum Entropy and
       Bayesian Reconstruction methods are studied in solving the
       inverse problem~\cite{Liang:2019frk}. 
-    \item[2020] Plenary talk at 2019 Lattice Conference which checked
+    \item{\bf 2020} Plenary talk at 2019 Lattice Conference which checked
       the higher-twist contribution and verified that the hadronic
       tensor matrix element for the elastic scattering is the product
       of elastic form factors from the three-point
       correlators~\cite{Liang:2020sqi}. 
-    \item[2020] It is shown that the parton degrees of freedom from
+    \item{\bf 2020} It is shown that the parton degrees of freedom from
       the hadronic tensor are the same as those in the quasi- and
       pseudo-PDFs~\cite{Liu:2020okp}. 
-    \item[2021] The connected-sea partons have been incorporated in
+    \item{\bf 2021} The connected-sea partons have been incorporated in
       the global analysis of PDFs for the first
       time~\cite{Hou:2022ajg}
-    \item[2023] Calculation of nucleon elastic and $N\to N^*$
+    \item{\bf 2023} Calculation of nucleon elastic and $N\to N^*$
       transition form factors and corresponding longitudinal helicity
       amplitude are completed. A manuscript is being prepared for
       publication. 
-    \item[2024] Calculation of the $\Delta$ contribution in the
+    \item{\bf 2024} Calculation of the $\Delta$ contribution in the
       neutrino-nucleon scattering. Explore large momentum transfer to
       study the shallow- and deep-inelastic scattering regions. 
-    \item[2025-2026] High statistics determinations of the resonance
+    \item{\bf 2025-2026} High statistics determinations of the resonance
       contributions on multiple ensembles and exploration of 
     the unpolarized, longitudinal and transversely polarized PDFs.
-    \item[2027-] Exploration of generalized parton distribution
+    \item{\bf 2027-} Exploration of generalized parton distribution
       functions through off-forward matrix elements. 
 \end{itemize}
+\end{itemize}
+
 
 % William Jay
 \subsection{Hadronic Tensor in the Resonance Region}
 \begin{itemize}
-    \item[Motivation.] The resonant structure of hadrons in kinematic regions with many open channels is a difficult non-perturbative problem in QCD with relevance to accelerator-based neutrino experiments like DUNE as well as the experimental program at the electron-ion collider.
+    \item{\bf Motivation:} The resonant structure of hadrons in kinematic regions with many open channels is a difficult non-perturbative problem in QCD with relevance to accelerator-based neutrino experiments like DUNE as well as the experimental program at the electron-ion collider.
     Recent theoretical and algorithmic advance in lattice QCD make calculations of the hadronic tensor for fully inclusive resonant scattering a realistic possibility for the first time.
-    \item[Long term goal.]
+    \item{\bf Long term goal:}
     Benchmarking lattice QCD techniques against the well-measured electromagnetic resonant structure functions of the nucleon.
     QCD predictions for the axial resonant structure functions of the nucleon, to ground our understanding of neutrino-nucleus scattering in QCD.
-    \item[Method.] Proof-of-concept calculations are underway using the simpler system of the pion instead of the nucleon.
+    \item{\bf Method:} Proof-of-concept calculations are underway using the simpler system of the pion instead of the nucleon.
 	The calculation involves four-point correlations functions, which are analytically continued from Euclidean space using novel spectral reconstruction techniques.
-\item[Timeline:]
-    \item[2017] Modern theoretical understanding of fully inclusive scattering via smeared spectral functions.~\cite{Hansen:2017mnd}
-    \item[2019] Algorithm for practical spectral reconstruction.~\cite{Hansen:2019idp}
-    \item[2023] Improved algorithm for spectral reconstruction, with rigorously quantified systematic uncertainties.
-    \item[2021-2023] Ongoing proof-of-concept calculations for the electromagnetic hadronic tensor of the pion underway.
-    \item[2027] First QCD calculations of the hadronic tensor of the nucleon.
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2017} Modern theoretical understanding of fully inclusive scattering via smeared spectral functions.~\cite{Hansen:2017mnd}
+    \item{\bf 2019} Algorithm for practical spectral reconstruction.~\cite{Hansen:2019idp}
+    \item{\bf 2023} Improved algorithm for spectral reconstruction, with rigorously quantified systematic uncertainties.
+    \item{\bf 2021-2023} Ongoing proof-of-concept calculations for the electromagnetic hadronic tensor of the pion underway.
+    \item{\bf 2027} First QCD calculations of the hadronic tensor of the nucleon.
+\end{itemize}
 \end{itemize}
 
 \section{Nuclear structure}\label{sec:nucstruct}
@@ -864,23 +906,25 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 \subsection{Nuclear and hyper-nuclear interactions}
 
 \begin{itemize}
-    \item[Motivation.] Nuclear forces at high density are relevant for understanding  the internal structure  of neutron stars and the dynamics of their mergers. Determinations of these forces are relevant to astrophysical observations from NICER and LIGO/Virgo and in experiments aiming to constrain  these interactions such as CREX/PREX at JLab.
+    \item{\bf Motivation:} Nuclear forces at high density are relevant for understanding  the internal structure  of neutron stars and the dynamics of their mergers. Determinations of these forces are relevant to astrophysical observations from NICER and LIGO/Virgo and in experiments aiming to constrain  these interactions such as CREX/PREX at JLab.
+   
+    \item{\bf Long term goal:} Fundamental understanding of few-nucleon interactions from QCD to provide a predictive framework for nuclear physics. 
     
-    \item[Long term goal.] Fundamental understanding of few-nucleon interactions from QCD to provide a predictive framework for nuclear physics. 
-    
-    \item[Method.] Scattering
+    \item{\bf Method:} Scattering
       amplitudes computed from finite-volume energy spectrum. Computation of hadronic two-point functions
       using a large set of multi-hadron operators.
       
-\item[Timeline:]
-    \item[2006] First QCD calculation of $NN$ interactions.
-    \item[2012] Calculation of hyperon-nucleon scattering.
-    \item[2013] First calculation of nuclear and hypernuclear bindings up to $A=4$.
-    \item[2019] Development of automatic code-generation for multi-nucleon correlation functions, enabling much more sophisticated 
-    \item[2021] Large variational study of $NN$ interactions.
-    \item[2025] Three-nucleon spectrum determined using large operator set.
-    \item[2027] Fully-controlled calculations of hyperon-nucleon scattering phase shifts
+\item{\bf Timeline:}
+\begin{itemize}
+   \item{\bf 2006} First QCD calculation of $NN$ interactions.
+    \item{\bf 2012} Calculation of hyperon-nucleon scattering.
+    \item{\bf 2013} First calculation of nuclear and hypernuclear bindings up to $A=4$.
+    \item{\bf 2019} Development of automatic code-generation for multi-nucleon correlation functions, enabling much more sophisticated 
+    \item{\bf 2021} Large variational study of $NN$ interactions.
+    \item{\bf 2025} Three-nucleon spectrum determined using large operator set.
+    \item{\bf 2027} Fully-controlled calculations of hyperon-nucleon scattering phase shifts
     
+\end{itemize}
 \end{itemize}
 
 
@@ -888,35 +932,39 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 \subsection{Structure of light nuclei}
 
 \begin{itemize}  
-    \item[Motivation.] Much is known about the structure of nuclei, but other aspetcs are mysterious when viewed from the point of view of QCD. The recent interest in short-range correlations in nuclei and their relation to the EMC effect has spawned many experiments at JLab and elsewhere; having a QCD understanding of this physics is crucial. 
+    \item{\bf Motivation:} Much is known about the structure of nuclei, but other aspetcs are mysterious when viewed from the point of view of QCD. The recent interest in short-range correlations in nuclei and their relation to the EMC effect has spawned many experiments at JLab and elsewhere; having a QCD understanding of this physics is crucial. 
     
-    \item[Long term goal.] Describe nuclear structure from the underlying Standard Model. 
+    \item{\bf Long term goal:} Describe nuclear structure from the underlying Standard Model. 
     
-    \item[Method.] Matrix elements corresponding to appropriate operators computed using background field methods.
+    \item{\bf Method:} Matrix elements corresponding to appropriate operators computed using background field methods.
       
-\item[Timeline:]
-    \item[2014] First QCD calculation of magnetic moments and polarizabilities of light nuclei.
-    \item[2015] QCD calculation of the slow-neutron capture cross section, $np\to d\gamma$.
-\item[2018] Calculation of gluon momentum fraction in light nuclei.
-    \item[2020] Calculation of the quark momentum fraction in light nuclei including $^3$He. 
-    \item[2025] Calculation of EM form factors of nuclei.
+\item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2014} First QCD calculation of magnetic moments and polarizabilities of light nuclei.
+    \item{\bf 2015} QCD calculation of the slow-neutron capture cross section, $np\to d\gamma$.
+\item{\bf 2018} Calculation of gluon momentum fraction in light nuclei.
+    \item{\bf 2020} Calculation of the quark momentum fraction in light nuclei including $^3$He. 
+    \item{\bf 2025} Calculation of EM form factors of nuclei.
+\end{itemize}
 \end{itemize}
 
 \subsection{Nuclear matrix elements for intensity frontier experiments}
 
 \begin{itemize}  
-    \item[Motivation.] Many intensity-frontier experiments use nuclei as targets in order to increase cross-sections. These experiments include dark-matter direct-detection experiments such as XENON-100, neutrino-nucleus interaction experiments such as DUNE and current and future neutrinoless double-$\beta$ decay search experiments including nEXO.
+    \item{\bf Motivation:} Many intensity-frontier experiments use nuclei as targets in order to increase cross-sections. These experiments include dark-matter direct-detection experiments such as XENON-100, neutrino-nucleus interaction experiments such as DUNE and current and future neutrinoless double-$\beta$ decay search experiments including nEXO.
     
-    \item[Long term goal.]  Provide Standard Model nuclear matrix elements for interpretation of intensity frontier experiments.
+    \item{\bf Long term goal:}  Provide Standard Model nuclear matrix elements for interpretation of intensity frontier experiments.
     
-    \item[Method.] 
+    \item{\bf Method:} 
     Calculation of nuclear matrix elements using three-point correlation functions.
     
-\item[Timeline:]
-\item[2016] Calculation of neutrinoful double-$\beta$ decay matrix elements revealing importance of isotensor axial polarizability.
-    \item[2018] Calculation of scalar matrix elements in light nuclei relevant for dark matter interactions 
-    \item[2021] Calculation of the axial charge of the triton, providing two-body EFT input for neutrino-nucleus scattering.
-    \item[2024] Calculation of short- and long-distance neutrinoless double-$\beta$ decay matrix elements for $nn\to pp$.
+\item{\bf Timeline:}
+\item{\bf 2016} Calculation of neutrinoful double-$\beta$ decay matrix elements revealing importance of isotensor axial polarizability.
+\begin{itemize}
+    \item{\bf 2018} Calculation of scalar matrix elements in light nuclei relevant for dark matter interactions 
+    \item{\bf 2021} Calculation of the axial charge of the triton, providing two-body EFT input for neutrino-nucleus scattering.
+    \item{\bf 2024} Calculation of short- and long-distance neutrinoless double-$\beta$ decay matrix elements for $nn\to pp$.
+\end{itemize}
 \end{itemize}
 
 
@@ -925,20 +973,20 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 % Peter Petreczky
 \subsection{QCD phase diagram}\label{sec:qcdphase}
 \begin{itemize}
-  \item[Motivation.] The aim of ultra-relativistic heavy ion
+  \item{\bf Motivation:} The aim of ultra-relativistic heavy ion
     collisions is to study strongly interacting matter at high
     temperatures. There is a large ongoing experimental program at
     RHIC in BNL and LHC at CERN dedicated to this. Lattice QCD
     calculations provide the necessary input for theoretical
     interpretation of heavy ion experiments. 
 
- \item[Long term goal.] The goal of lattice QCD calculations is to
+ \item{\bf Long term goal:} The goal of lattice QCD calculations is to
       map out the QCD phase diagram as function of the temperature at
       zero and moderately high baryon density, calculate the QCD
       equation of state and estimate spectral functions that are
       needed for heavy flavor and electromagnetic probes of the matter
       produced in ultra-relativistic heavy ion
-      collisions. \item[Method.] Calculations are performed using
+      collisions. \item{\bf Method:} Calculations are performed using
       highly improved staggered quark (HISQ) action in 2+1 flavor QCD
       with physical strange quark mass, $m_s$ and various light quark
       masses, $m_l$,  around its physical value of $m_l=m_s/27$. In
@@ -948,16 +996,17 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
       aspects of the transition smaller than physical values of $m_l$
       are used. 
 
-  \item[Timeline:]
-   \item[2011-2014] The HotQCD collaboration successfully determined
+  \item{\bf Timeline:}
+\begin{itemize}
+   \item{\bf 2011-2014} The HotQCD collaboration successfully determined
      the chiral crossover temperature and QCD equation of state in the
      continuum limit. 
-   \item[2014-2021] The HotQCD collaboration determined the chiral
+   \item{\bf 2014-2021} The HotQCD collaboration determined the chiral
      crossover temperature, the QCD equation of state and fluctuations
      of conserved charges at non-zero density, which was essential
      input for the RHIC BES program. In particular these results have
      been used by the BEST DOE topical collaboration.
-   \item[2019-2023] Calculations of the bottomonium properties and the
+   \item{\bf 2019-2023} Calculations of the bottomonium properties and the
      heavy quark potential have been performed at nearly physical
      light quark masses on lattices with temporal extent
      $N_{\tau}=12$. The heavy quark diffusion coefficient has been
@@ -966,14 +1015,15 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
      interpretation of the open and hidden heavy flavor production in
      heavy ion experiments at RHIC and LHC, including START, sPHENIX,
      ALICE, CMS and ATLAS.
-   \item[2023-2027] Our goal in the future is to calculate quarkonium
+   \item{\bf 2023-2027} Our goal in the future is to calculate quarkonium
      in-medium properties and the heavy quark diffusion coefficient in
      the continuum limit for physical light quark masses.
-   \item[2023-2035] Heavy flavor probes will be one of the driving
+   \item{\bf 2023-2035} Heavy flavor probes will be one of the driving
      themes of heavy ion experiments at RHIC and LHC. The sPHENX and
      STAR experiments will collect new data in 2023-2025. The analysis
      of these data will probably last till 2028. The LHC heavy ion
      experiments are planned to run till at least 2035. 
+\end{itemize}
 \end{itemize}
 
 
@@ -984,74 +1034,76 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 %INTENSITY FRONTIER  ( QCD strong coupling, as defined at the Z-pole)
 \subsection{ QCD strong coupling, as defined at the Z-pole}
 \begin{itemize}
-	\item[Motivation.]  The most precise lattice determination of
+	\item{\bf Motivation:}  The most precise lattice determination of
           the QCD strong coupling $\alpha_s$  comes from the european
           Alpha collaboration but  it should require independent and
           important  cross-validation. Two  USQCD  groups are working
           toward  this goal. 
-	\item[Long term goal.] The QCD strong coupling $\alpha_s$, as
+	\item{\bf Long term goal:} The QCD strong coupling $\alpha_s$, as
           defined at the Z-pole, is equivalent to the long term goal
           to determine $\Lambda_{\overline{MS}}$  in physical units
           with very high precision. Credible and high precision
           cross-validation  of this goal  is motivated by the
           emergence of  the required new lattice  technology for the
           long-term goal. 
-	\item[Method.]  The application of gradient flow based
+	\item{\bf Method:}  The application of gradient flow based
           scale-dependent renormalization of
           $\alpha_s(\mu=1/\sqrt{8t})$ at flow time scale $t$ on
           lattices extended to  infinite space-time provides the new
           technology.  
-	\item[Timeline:]
-	\item[2012] The LatHC collaboration introduces the gradient
+	\item{\bf Timeline:}
+\begin{itemize}
+	\item{\bf 2012} The LatHC collaboration introduces the gradient
           flow based step $\beta$-function where the scale is set by
           the size of the physical volume Fodor:2012td. The method
           has been extended  applied to high precision QCD and to BSM
           models.  
-	\item[2017-2018] The LatHC collaboration introduces and tests
+	\item{\bf 2017-2018} The LatHC collaboration introduces and tests
           in the sextet BSM model the  gradient flow based
           $\beta$-function for the renormalized coupling at flow time
           scale $t$ where the lattice is extended to infinite volume.
           The method is tested at a single renormalized gauge coupling
           \cite{Fodor:2017die}.  
-	\item[2019-2020] The new paradigm was extended to predict the
+	\item{\bf 2019-2020} The new paradigm was extended to predict the
           entire $\beta$ function from UV to IR. This approach was
           tested in two-flavor QCD with massless
           fermions\cite{Hasenfratz:2019hpg} and in multiflavor QCD
           with ten and twelve flavors. 
-	\item[2022-2023] In the SU(3) Yang-Mills limit of quenched QCD
+	\item{\bf 2022-2023} In the SU(3) Yang-Mills limit of quenched QCD
           it was shown by two USQCD groups that the new method is a
           competitive high-precision match to the earlier method of
           the Alpha collaboration
           \cite{Hasenfratz:2023bok,Wong:2023jvr}. The combined high
           accuracy is in significant tension with any other lattice
           method. 
-	\item[2023-2024]  Ongoing and future work of two USQCD groups
+	\item{\bf 2023-2024}  Ongoing and future work of two USQCD groups
           is trying the reproduce the success of their quenched QCD
           results with three massless quark flavors in QCD to achieve
           the stated  goal.  
+\end{itemize}
 \end{itemize}
 
 
 % Anna Hasenfratz
 \subsection{Sextet model and ten-flavor QCD}
 \begin{itemize}
-\item[Motivation.] Gauge theories with massless fermions and large
+\item{\bf Motivation:} Gauge theories with massless fermions and large
   number of flavors, or in higher fermion representations, become
   near-conformal with the signal of an emergent dilaton. The effective
   field theory description of this dilaton is an important challenge
   to understand as one of the most important clues to the conformal
   window. 
-  \item[Method.] The effective field theory description of this
+  \item{\bf Method:} The effective field theory description of this
     dilaton is an important challenge to understand as one of the most
     significant clues to the conformal window. The effective dilaton
     theories of the two models are tested in the p-regime and epsilon
     regime of the chirally broken phase near conformality.  
-\item[Timeline:]
-   \item[2018-2020] The LatHC collaboration presents dilaton effective
+\item{\bf Timeline:}
+   \item{\bf 2018-2020} The LatHC collaboration presents dilaton effective
      field theory analysis  of  the sextet model. Similar tests were
      obtained in the eight-flavor model based on the data of the LSD
      collaboration.
-   \item[2023-2024] There are ongoing tests in the sextet model and in
+   \item{\bf 2023-2024} There are ongoing tests in the sextet model and in
      the ten-flavor model to further develop the effective dilaton
      theory based on the anomalous dimension of composite four-fermion
      operators.
@@ -1061,11 +1113,11 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 % Anna Hasenfratz
 \subsection{Running coupling, $\alpha_s(M_Z)$, and non-perturbative renormalization of QCD}
 \begin{itemize}
-   \item[Motivation.] Determining the QCD running coupling, the
+   \item{\bf Motivation:} Determining the QCD running coupling, the
      $\Lambda$ parameter, and the strong coupling constant $\alpha_s$
      are essential to connect lattice calculations to continuum
      renormalization schemes.  
-   \item[Long term goal.] Lattice calculations can determine the
+   \item{\bf Long term goal:} Lattice calculations can determine the
      $\Lambda_{QCD}$  from the infrared lattice scale to high energies
      where perturbative connection to the ${\overline {MS}}$ scheme is
      possible. The goal is to determine the renormalization group
@@ -1073,68 +1125,72 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
      $N_f=2$ and 3 flavor QCD. Using the decoupling method these
      determinations can be connected, providing further verification
      of the flavor number dependence. 
-   \item[Method.] In recent years the continuous $\beta$ function
+   \item{\bf Method:} In recent years the continuous $\beta$ function
      method, originally developed to study the RG properties of
      near-conformal systems, proved to be a very reliable
      approach. Several groups use the method to achieve the stated
      goals. Calculations with  different lattice actions and lattice
      fermions  provide an other level of control over this important
      quantity. 
-\item[Timeline:] 
-   \item[2015-2021] Development of the continuous $\beta$ function method (see next section)
-   \item[2021-2023] First results for the $N_f=0$ system are published. Calculations of the $N_f=2$ and 3 systems have started. 
-   \item[2023-2025] First published result for $N_f=2$ is expected in
-     2023, followed by more precise calculations for both $N_f=2$ and
-     3. 
-   
+\item{\bf Timeline:} 
+\begin{itemize}
+   \item{\bf 2015-2021} Development of the continuous $\beta$ function method (see next section)
+   \item{\bf 2021-2023} First results for the $N_f=0$ system are published. Calculations of the $N_f=2$ and 3 systems have started. 
+   \item{\bf 2023-2025} First published result for $N_f=2$ is expected in
+     2023, followed by more precise calculations for both $N_f=2$ and 3. 
+\end{itemize}   
 \end{itemize}
 
 % Anna Hasenfratz
 \subsection{Renormalization group properties beyond - QCD systems }
 \begin{itemize}
-    \item[Motivation.]
+    \item{\bf Motivation:}
      Understanding the nature of SU(3) gauge theories and how infra-red
      fixed points in many flavor systems arise are important for composite Higgs models. The anomalous dimension of composite fermions is needed to explain fermion mass generation of Standard Model fermions.  
-    \item[Long term goal.] Studying SU(3) gauge fermion-systems and explore novel gradient flow methods
-    \item[Method.] Generation dynamical gauge field configurations with
+    \item{\bf Long term goal:} Studying SU(3) gauge fermion-systems and explore novel gradient flow methods
+    \item{\bf Method:} Generation dynamical gauge field configurations with
      SU(3) gauge group and $N_f$ fundamental flavors. Calculation of
      the step-scaling function, the discrete analog of the
      renormalization group (RG) $\beta$ function. In addition we
      explore the connection of gradient flow to the RG flow and propose
      a new method to calculate the continuous $\beta$ function,
      extract anomalous dimensions, and obtain renormalization Z factors
-    \item[Timeline:]
-    \item[2017-2019] Calculation of the step-scaling $\beta$ function
+    \item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2017-2019} Calculation of the step-scaling $\beta$ function
      for SU(3) with $N_f=12$ fundamental flavors
-    \item[2018-2020] Calculation of the step-scaling $\beta$ function
+    \item{\bf 2018-2020} Calculation of the step-scaling $\beta$ function
      for SU(3) with $N_f=10$ fundamental flavors
-    \item[2020] Development of the continuous $\beta$ function
-    \item[2020-2022] Calculation of the step-scaling $\beta$ function
+    \item{\bf 2020} Development of the continuous $\beta$ function
+    \item{\bf 2020-2022} Calculation of the step-scaling $\beta$ function
      for SU(3) with $N_f=8$ fundamental flavors
-    \item[2021] Proposal of a new gradient flow based renormalization
+    \item{\bf 2021} Proposal of a new gradient flow based renormalization
      scheme
-    \item[2021-2022] Calculation of the step-scaling $\beta$ function
+    \item{\bf 2021-2022} Calculation of the step-scaling $\beta$ function
      for SU(3) with $N_f=6$ and 4 fundamental flavors
-    \item[2020-2023] New concept to use the gradient flow to determine
+    \item{\bf 2020-2023} New concept to use the gradient flow to determine
      the $\Lambda$ parameter for pure gauge systems
-    \item[2021-2025] Establishing the viability of GF renormalization
+    \item{\bf 2021-2025} Establishing the viability of GF renormalization
+\end{itemize}
 \end{itemize}
 
 \subsection{Composite Higgs models}
 \begin{itemize}
-    \item[Motivation.] Exploring composite Higgs models and make
+    \item{\bf Motivation:} Exploring composite Higgs models and make
      predictions for resonances to be eventually discovered by ATLAS
      and CMS
-    \item[Long term goal.] Understanding the viability wether the
+    \item{\bf Long term goal:} Understanding the viability wether the
      observed 125 GeV Higgs boson can be understood as an excitation of
      a new strongly interacting sector
-    \item[Method.] Large scale numerical simulations of (near)-
+    \item{\bf Method:} Large scale numerical simulations of (near)-
      conformal gauge theories or theories close to an IRFP
-    \item[Timeline:]
-    \item[2014-2016] Proposing and exploring mass-split models using a
+    \item{\bf Timeline:}
+\begin{itemize}
+    \item{\bf 2014-2016} Proposing and exploring mass-split models using a
      setup with four light and eight heavy flavors
-    \item[2017-???] Studying improved mass-split system with 4 light
+    \item{\bf 2017-???} Studying improved mass-split system with 4 light
      and six heavy flavors
+\end{itemize}
 \end{itemize}
 
 %\subsection{Dark Matter}

@@ -1,4 +1,4 @@
-# USQCD-theory-and-experimental-time-lines
+# USQCD theory and experimental time lines
 
 Timeline for USQCD calculations and their relationship to experiments.
 

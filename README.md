@@ -2,4 +2,4 @@
 
 Timeline for USQCD calculations and their relationship to experiments.
 
-View the webpage at  https://grokqcd.github.io/USQCD-theory-and-experimental-time-lines/out/main.html
+View the webpage at  https://grokqcd.github.io/USQCD-theory-and-experimental-time-lines/index.html

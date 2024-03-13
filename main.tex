@@ -718,13 +718,13 @@
 \subsection{Hadron tomography}
 
 % Xiang Gao
-\subsubsection{Internal structure of Goldstone mesons}
+\subsubsection{Internal structure of Goldstone mesons and nucleon}
 \begin{itemize}
     \item{\bf Motivation:} Studying the 3D-structure of hadrons and understanding the partonic origin of hard exclusive processes are among the goals of the Jefferson Lab 12 GeV program and the future Electron-Ion Collider (EIC). The pion and kaon, as the pseudo-Goldstone modes of QCD, play a critical role in understanding the physics of asymptotic freedom and chiral symmetry-breaking in QCD from the fundamental quark-gluon interactions.
     
-    \item{\bf Long term goal:} First principles calculations of the pion and kaon distribution amplitudes and form factors with large momentum transfer to explore the transition from non-perturbative QCD to perturbative QCD. Precision calculations of the pion valence quark PDFs and GPDs, providing insights into the quark momentum fractions and 3-dimensional distributions in the pseudo-Goldstone bosons.
+    \item{\bf Long term goal:} First principles calculations of the pion and kaon distribution amplitudes and form factors with large momentum transfer to explore the transition from non-perturbative QCD to perturbative QCD. Precision calculations of the pion valence quark PDFs and GPDs, providing insights into the quark momentum fractions and 3-dimensional distributions in the pseudo-Goldstone bosons. Exploring the spin-dependent PDFs and 3-dimensional structure of nucleon.
     
-    \item{\bf Method:} Calculation of pion/kaon form factors in the Breit frame with optimized quark smearing to achieve large momentum transfers. Computation of the pion quasi-DA, PDF, GPD and kaon quasi-DA matrix elements with large momentum, and deriving the light-cone quantities using large momentum effective theory and short distance factorization.
+    \item{\bf Method:} Calculation of pion/kaon form factors in the Breit frame with optimized quark smearing to achieve large momentum transfers. Computation of the quasi-DA, quasi-PDF, quasi-GPD, and quasi-TMD matrix elements within large-momentum hadron states to extract the light-cone parton distributions using large momentum effective theory and short distance factorization.
       
 \item{\bf Timeline:}
 \begin{itemize}
@@ -735,13 +735,17 @@
     \item{\bf 2022} Calculation of the pion distribution amplitude at the physical point within the short distance factorization framework.~\cite{Gao:2022vyh}
     \item{\bf 2022} Calculation of the Bjorken-x dependence of the pion valence PDF with controlled systematics.~\cite{Gao:2021dbh}
     \item{\bf 2022} Calculation of the pion valence PDF with a continuum extrapolation, physical quark masses and NNLO matching.~\cite{Gao:2022iex}
-    \item{\bf 2023} Calculation of the kaon distribution amplitude at the physical point.
-    \item{\bf 2023} First calculation of the pion form factors at the physical point with large momentum transfer.
+    \item{\bf 2022} Calculation of the Unpolarized PDF of nucleon.~\cite{Gao:2022uhg}
+    \item{\bf 2023} Calculation of the Transversity PDF of nucleon.~\cite{Gao:2023ktu}
+    \item{\bf 2024} Calculation of the kaon distribution amplitude at the physical point.
+    \item{\bf 2024} First calculation of the pion form factors at the physical point with large momentum transfer.
     \item{\bf 2024} First calculation of the kaon form factors at the physical point with large momentum transfer.
+    \item{\bf 2025} Calculation of pion TMDs with a 300 MeV pion mass.
     \item{\bf 2025} Calculation of pion GPDs with a 300 MeV pion mass.
     \item{\bf 2027} Calculation of pion GPDs at the physical point.
 \end{itemize}
 \end{itemize}
+
 
     
 % David Richards
@@ -828,18 +832,18 @@ uncertainties in global analyses of experimental data.
 \end{itemize}
 
 
-% Michael Wagman
+% Yong Zhao
 \subsubsection{Collins-Soper kernel for TMD evolution}
 \begin{itemize}
     \item{\bf Motivation:} The Collins-Soper kernel relates the
       transverse-momentum-dependent distributions (TMDs) of hadrons at
       different energy scales, which is a crucial non-perturbative
       input for global analyses to understand the 3D structure of the
-      proton. 
+      proton.
     \item{\bf Long term goal:} Calculate the Collins-Soper kernel at
       physical pion mass with a $\sim 10\%$ precision, which can be
       compared to the experimental results from the Electron-Ion
-      Collider. 
+      Collider.
     \item{\bf Method:} Lattice calculation and renormalization of the
       matrix elements of quasi-TMD correlators in a highly boosted
       hadron state. The quasi-TMD correlators are defined from quark
@@ -851,26 +855,24 @@ uncertainties in global analyses of experimental data.
       Collins-Soper kernel. Apart from the forward matrix elements for
       quasi-TMDs, we can also use the TMD wave function, which is a
       vacuum to hadron amplitude of the quasi-TMD correlator, to
-      extract the Collins-Soper kernel. 
+      extract the Collins-Soper kernel.
 \item{\bf Timeline:}
 \begin{itemize}
     \item{\bf 2019} Study of the renormalization and mixing of the
       staple-shaped quasi-TMD correlator on the
-      lattice~\cite{Shanahan:2019zcq}. 
+      lattice~\cite{Shanahan:2019zcq}.
     \item{\bf 2020} First exploratory calculation of the quark
       Collins-Soper kernel on a quenched lattice ensemble from the
-      quasi-TMDs~\cite{Shanahan:2020zxr}. 
+      quasi-TMDs~\cite{Shanahan:2020zxr}.
     \item{\bf 2021} First lattice calculation of the quark Collins-Soper
       kernel with dynamical fermions at unphysical pion mass of around
-      500 MeV from the quasi-TMDs~\cite{Shanahan:2021tst}. 
-    \item{\bf 2022-2023} Ongoing lattice calculation of the quark
+      500 MeV from the quasi-TMDs~\cite{Shanahan:2021tst}.
+    \item{\bf 2022-2023} Lattice calculation of the quark
       Collins-Soper kernel at the physical point from the quasi-TMD
-      wave functions. 
-    \item{\bf 2023-2025} Improving the precision of the quark
-      Collins-Soper kernel to less than $10\%$ with physical
-      extrapolations and higher hadron momenta. 
-    \item{\bf 2023-2026} Develop and implement the method to calculate the gluon Collins-Soper kernel.
-    \item{\bf 2023-2026} Lattice calculation of the quark TMD soft factor.
+      wave functions~\cite{Avkhadiev:2023poz}.
+    \item{\bf 2024} Continuum extrapolation of the quark Collins-Soper kernel at the physical point, with a precision that can distinguish phenomenological models in the non-perturbative region~\cite{Avkhadiev:2024mgd}.
+    \item{\bf 2024-2026} Develop and implement the method to calculate the gluon Collins-Soper kernel.
+    \item{\bf 2024-2026} Lattice calculation of the quark TMD soft factor.
 \end{itemize}
 \end{itemize}
 
@@ -1329,7 +1331,7 @@ most dramatically exemplified  by lattice QCD, relevant to
 both particle and condensed matter physics.  
 Recently a fully non-perturbative method has been
 found and tested in an map to the strong coupling Ising theory on
-${ \mathbb S}^2$~\cite{Owen:2023}. 
+${ \mathbb S}^2$~\cite{Brower:2022cwv,Owen:2023}. 
  \item { \bf Long term goal:}
 The plan going forward in the next year is to determine the Affine map
 for a sequence of 3d and 4d fields theories starting with 3d spin systems and 3d QED before moving to 4d Yang Mills theory. At the same time, we are

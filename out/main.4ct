@@ -1,0 +1,57 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Contents}}{1}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-2}{Intensity Frontier}}{1}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{1}{x1-30001.1}{QQ2-1-3}{Muon $g-2$}}{1}\relax 
+\doTocEntry\tocsubsection{1.2}{\csname a:TocLink\endcsname{1}{x1-40001.2}{QQ2-1-4}{$B$-meson anomalies and CKM unitarity tests}}{2}\relax 
+\doTocEntry\tocsubsection{1.3}{\csname a:TocLink\endcsname{1}{x1-50001.3}{QQ2-1-5}{Flavor physics with heavy baryons}}{4}\relax 
+\doTocEntry\tocsubsection{1.4}{\csname a:TocLink\endcsname{1}{x1-60001.4}{QQ2-1-6}{$K_L$-$K_S$ mass difference}}{7}\relax 
+\doTocEntry\tocsubsection{1.5}{\csname a:TocLink\endcsname{1}{x1-70001.5}{QQ2-1-7}{Long distance contribution to $\epsilon _K$}}{8}\relax 
+\doTocEntry\tocsubsection{1.6}{\csname a:TocLink\endcsname{1}{x1-80001.6}{QQ2-1-8}{Direct CP-violation in kaon decays ($\epsilon '$)}}{9}\relax 
+\doTocEntry\tocsubsection{1.7}{\csname a:TocLink\endcsname{1}{x1-90001.7}{QQ2-1-9}{Direct $CP$ violation in $K\to \pi \pi $ decays using periodic boundary conditions}}{12}\relax 
+\doTocEntry\tocsubsection{1.8}{\csname a:TocLink\endcsname{1}{x1-100001.8}{QQ2-1-10}{Contribution of E\&M and strong isospin breaking to $\epsilon '$}}{14}\relax 
+\doTocEntry\tocsubsection{1.9}{\csname a:TocLink\endcsname{1}{x1-110001.9}{QQ2-1-11}{Two photon exchange contribution to $K_L\to \mu ^+\mu ^-$}}{15}\relax 
+\doTocEntry\tocsubsection{1.10}{\csname a:TocLink\endcsname{1}{x1-120001.10}{QQ2-1-12}{QED correction to pion, kaon, and Omega baryon masses}}{17}\relax 
+\doTocEntry\tocsubsection{1.11}{\csname a:TocLink\endcsname{1}{x1-130001.11}{QQ2-1-13}{QED correction to pion and kaon (semi-)leptonic decay}}{18}\relax 
+\doTocEntry\tocsubsection{1.12}{\csname a:TocLink\endcsname{1}{x1-140001.12}{QQ2-1-14}{The QCD $\Lambda $ parameter and the strong coupling constant at the Z-pole}}{19}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-150002}{QQ2-1-15}{Hadron spectroscopy}}{20}\relax 
+\doTocEntry\tocsubsection{2.1}{\csname a:TocLink\endcsname{1}{x1-160002.1}{QQ2-1-16}{Exotic light quark mesons}}{20}\relax 
+\doTocEntry\tocsubsection{2.2}{\csname a:TocLink\endcsname{1}{x1-170002.2}{QQ2-1-17}{Internal structure of resonant states}}{21}\relax 
+\doTocEntry\tocsubsection{2.3}{\csname a:TocLink\endcsname{1}{x1-180002.3}{QQ2-1-18}{Light and strange quark baryon spectroscopy}}{23}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-190003}{QQ2-1-19}{Hadron structure}}{24}\relax 
+\doTocEntry\tocsubsection{3.1}{\csname a:TocLink\endcsname{1}{x1-200003.1}{QQ2-1-20}{Electromagnetic Form Factors}}{24}\relax 
+\doTocEntry\tocsubsubsection{3.1.1}{\csname a:TocLink\endcsname{1}{x1-210003.1.1}{QQ2-1-21}{Nucleon charges}}{24}\relax 
+\doTocEntry\tocsubsubsection{3.1.2}{\csname a:TocLink\endcsname{1}{x1-220003.1.2}{QQ2-1-22}{Nucleon electromagnetic form factors}}{25}\relax 
+\doTocEntry\tocsubsubsection{3.1.3}{\csname a:TocLink\endcsname{1}{x1-230003.1.3}{QQ2-1-23}{Calculation of high-momentum nucleon form factors}}{26}\relax 
+\doTocEntry\tocsubsection{3.2}{\csname a:TocLink\endcsname{1}{x1-240003.2}{QQ2-1-24}{Axial Form Factors}}{28}\relax 
+\doTocEntry\tocsubsubsection{3.2.1}{\csname a:TocLink\endcsname{1}{x1-250003.2.1}{QQ2-1-25}{NME, PNDME Collaborations}}{28}\relax 
+\doTocEntry\tocsubsubsection{3.2.2}{\csname a:TocLink\endcsname{1}{x1-260003.2.2}{QQ2-1-26}{Fermilab Lattice Collaboration}}{29}\relax 
+\doTocEntry\tocsubsection{3.3}{\csname a:TocLink\endcsname{1}{x1-270003.3}{QQ2-1-27}{Nucleon Electric Dipole Moment (nEDM)}}{30}\relax 
+\doTocEntry\tocsubsubsection{3.3.1}{\csname a:TocLink\endcsname{1}{x1-280003.3.1}{QQ2-1-28}{Contributions of CP violating operators to nucleon EDM}}{30}\relax 
+\doTocEntry\tocsubsubsection{3.3.2}{\csname a:TocLink\endcsname{1}{x1-290003.3.2}{QQ2-1-29}{Quark-gluon CP violating contributions}}{32}\relax 
+\doTocEntry\tocsubsection{3.4}{\csname a:TocLink\endcsname{1}{x1-300003.4}{QQ2-1-30}{Hadron tomography}}{33}\relax 
+\doTocEntry\tocsubsubsection{3.4.1}{\csname a:TocLink\endcsname{1}{x1-310003.4.1}{QQ2-1-31}{Internal structure of Goldstone mesons and nucleon}}{33}\relax 
+\doTocEntry\tocsubsubsection{3.4.2}{\csname a:TocLink\endcsname{1}{x1-320003.4.2}{QQ2-1-32}{Internal structure of mesons and nucleons}}{35}\relax 
+\doTocEntry\tocsubsubsection{3.4.3}{\csname a:TocLink\endcsname{1}{x1-330003.4.3}{QQ2-1-33}{Transverse momentum-dependent parton distribution (TMD) observables.}}{37}\relax 
+\doTocEntry\tocsubsubsection{3.4.4}{\csname a:TocLink\endcsname{1}{x1-340003.4.4}{QQ2-1-34}{Collins-Soper kernel for TMD evolution}}{39}\relax 
+\doTocEntry\tocsubsubsection{3.4.5}{\csname a:TocLink\endcsname{1}{x1-350003.4.5}{QQ2-1-35}{Direct evaluation of parton orbital angular momentum (OAM) in the proton}}{40}\relax 
+\doTocEntry\tocsubsubsection{3.4.6}{\csname a:TocLink\endcsname{1}{x1-360003.4.6}{QQ2-1-36}{Gravitational form factors of the energy momentum tensor}}{42}\relax 
+\doTocEntry\tocsubsection{3.5}{\csname a:TocLink\endcsname{1}{x1-370003.5}{QQ2-1-37}{Neutrino-nucleon Scattering from the Hadronic Tensor}}{43}\relax 
+\doTocEntry\tocsubsection{3.6}{\csname a:TocLink\endcsname{1}{x1-380003.6}{QQ2-1-38}{Hadronic Tensor in the Resonance Region}}{45}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-390004}{QQ2-1-39}{Nuclear structure}}{46}\relax 
+\doTocEntry\tocsubsection{4.1}{\csname a:TocLink\endcsname{1}{x1-400004.1}{QQ2-1-40}{Nuclear and hyper-nuclear interactions}}{46}\relax 
+\doTocEntry\tocsubsection{4.2}{\csname a:TocLink\endcsname{1}{x1-410004.2}{QQ2-1-41}{Structure of light nuclei}}{47}\relax 
+\doTocEntry\tocsubsection{4.3}{\csname a:TocLink\endcsname{1}{x1-420004.3}{QQ2-1-42}{Nuclear matrix elements for intensity frontier experiments}}{48}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{1}{x1-430005}{QQ2-1-43}{Extreme matter}}{49}\relax 
+\doTocEntry\tocsubsection{5.1}{\csname a:TocLink\endcsname{1}{x1-440005.1}{QQ2-1-44}{QCD phase diagram}}{49}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{1}{x1-450006}{QQ2-1-45}{Beyond the Standard Model}}{51}\relax 
+\doTocEntry\tocsubsection{6.1}{\csname a:TocLink\endcsname{1}{x1-460006.1}{QQ2-1-46}{Composite Higgs Models}}{51}\relax 
+\doTocEntry\tocsubsection{6.2}{\csname a:TocLink\endcsname{1}{x1-470006.2}{QQ2-1-47}{Renormalization group properties of gauge-fermion systems }}{52}\relax 
+\doTocEntry\tocsubsection{6.3}{\csname a:TocLink\endcsname{1}{x1-480006.3}{QQ2-1-48}{Cosmic Frontier}}{54}\relax 
+\doTocEntry\tocsubsubsection{6.3.1}{\csname a:TocLink\endcsname{1}{x1-490006.3.1}{QQ2-1-49}{Anomalies in Galaxy Formation}}{54}\relax 
+\doTocEntry\tocsubsubsection{6.3.2}{\csname a:TocLink\endcsname{1}{x1-500006.3.2}{QQ2-1-50}{Space-based Gravitational Wave Detection}}{55}\relax 
+\doTocEntry\tocsubsection{6.4}{\csname a:TocLink\endcsname{1}{x1-510006.4}{QQ2-1-51}{Theoretical developments}}{56}\relax 
+\doTocEntry\tocsubsubsection{6.4.1}{\csname a:TocLink\endcsname{1}{x1-520006.4.1}{QQ2-1-52}{Lattice supersymmetry}}{56}\relax 
+\doTocEntry\tocsubsubsection{6.4.2}{\csname a:TocLink\endcsname{1}{x1-530006.4.2}{QQ2-1-53}{Quantum field theories on hyperbolic space.}}{57}\relax 
+\doTocEntry\tocsubsubsection{6.4.3}{\csname a:TocLink\endcsname{1}{x1-540006.4.3}{QQ2-1-54}{Exact lattice anomalies and new mirror models}}{57}\relax 
+\doTocEntry\tocsubsubsection{6.4.4}{\csname a:TocLink\endcsname{1}{x1-550006.4.4}{QQ2-1-55}{Lattice Field Theory on Curved Manifolds}}{58}\relax 
+\par 

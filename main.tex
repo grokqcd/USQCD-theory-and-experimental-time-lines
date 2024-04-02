@@ -238,32 +238,42 @@
 \end{itemize}
 
 
-
-% Norman Christ
-\subsection{Direct CP-violation in kaon decays ($\epsilon'$)}
+% Tom Blum/Norman Christ
+\subsection{Direct CP-violation in kaon decays ($\varepsilon'$)}
 \begin{itemize}
     \item{\bf Motivation:} Highly sensitive to new sources of CP that may explain the matter/antimatter asymmetry in the observable Universe. Experimental result with ${\cal O}(10\%)$ precision already available.
-    \item{\bf Long term goal:} Calculate $\epsilon'$ to a precision exceeding the current 10\% experimental value.        
-    \item{\bf Method:} Lattice calculation of $K\to\pi\pi$ matrix elements using 3-flavor weak effective theory in finite-volume allows extraction of infinite-volume amplitudes, $A_2$ \& $A_0$, through Lellouch-L\"uscher methods. Antiperiodic ($A_2$) and novel ``G-parity'' ($A_0$) boundary conditions (BCs) ensure dominance in signal of physical, energy-conserving decay. Non-perturbative renormalization at high energies minimizes systematic error in matching to perturbation theory describing weak interaction physics. Vacuum contributions to $A_0$ require large statistics to adequately resolve. Future calculations aim to reduce systematic errors by incorporating electromagnetism and isospin-breaking effects, and an active charm quark.
-
- % Norman Christ
-\item{\bf Timeline:} \hfill [last updated May 2023]
+    \item{\bf Long term goal:} Calculate $\varepsilon'$ to a precision exceeding the current 10\% experimental value.        
+    \item{\bf Method:} Lattice calculation of $K\to\pi\pi$ matrix elements using 3-flavor weak effective theory in finite-volume allows extraction of infinite-volume amplitudes, $A_2$ \& $A_0$, through Lellouch-L\"uscher methods.  Use two complementary finite-volume treatments: i) Antiperiodic ($A_2$) and novel ``G-parity'' ($A_0$) boundary conditions (BCs). Requires bespoke G-parity ensembles.  Energy of two pion ground state equals $M_K$. ii) Periodic boundary conditions.  Multiple finite volume energies measured using Generalized Eigenvalue Problem (GEVP) method~\cite{Luscher:1990ck,Bulava:2011yz}.  Can use existing ensembles and can add E\&M.  Together both methods allow study of finite-volume errors.  Non-perturbative renormalization at high energies minimizes systematic error when matching to perturbation theory describing weak interaction physics. Vacuum contributions to $A_0$ require large statistics to adequately resolve. Future calculations aim to reduce systematic errors by incorporating electromagnetism and isospin-breaking effects, and an active charm quark.  Well-understood lattice QCD technique with no recognized limitation to the control of all systematic errors. 
+\item{\bf Timeline:} \hfill [last updated March 2024]
 \begin{itemize}
     \item{\bf 1999} First definitive observations of kaon direct CP-violation at KTeV (FermiLab) and NA48 (CERN).
     \item{\bf 2001} Final NA48 experimental result published~\cite{NA48:2001bct}.
     \item{\bf 1985-2002} Early lattice calculations using quenched QCD and chiral perturbation theory (ChPT) obtained results with large, uncontrolled systematic errors.
-    \item{\bf 2004} Lattice calculation with dynamical QCD and ChPT~\cite{Li:2008kc}. Large systematic errors due to ChPT discouraged continued usage of this approach.
-    \item{\bf 2011} Final KTeV experimental result published~\cite{KTeV:2010sng}. Combining experimental results gives current, best determination ${\rm Re}(\epsilon'/\epsilon)=16.6(2.3)\times 10^{-4}$.
+    \item{\bf 2004} Lattice calculation with dynamical QCD and ChPT~\cite{Li:2008kc}. Large systematic errors due to ChPT discouraged continued use of this approach.
+    \item{\bf 2011} Final KTeV experimental result published~\cite{KTeV:2010sng}. Combining experimental results gives current, best determination ${\rm Re}(\varepsilon'/\varepsilon)=16.6(2.3)\times 10^{-4}$.
     \item{\bf 2011} Development of lattice approach for computing $K\to\pi\pi$ decays directly~\cite{Blum:2011pu}.
     \item{\bf 2012} First {\it ab initio}, physical calculation of $A_2$~\cite{Blum:2011ng,Blum:2012uk}.
-    \item{\bf 2015} First continuum-limit calculation of $A_2$~\cite{Blum:2015ywa}. First {\it ab initio}, physical calculation of $A_0$ and $\epsilon'$ using G-parity BCs~\cite{RBC:2015gro}.
-    \item{\bf 2020} Improved calculation of $A_0$ and $\epsilon'$ with G-parity BCs obtained substantially smaller statistical errors and better control over systematic errors~\cite{RBC:2020kdj}. This, latest result agrees with experiment but has ${\sim}4\times$ the total error.
-    \item{\bf 2020-2024} Repeat calculation of $A_0$ on finer lattices to reduce/remove ${\cal O}(12\%)$ discretization systematic error.
-    \item{\bf 2020-2026} Develop new methods to incorporate electromagnetism and isospin-breaking effects, reducing dominant ${\cal O}(23\%)$ systematic error.
-    \item{\bf 2024-2026} Develop approach to incorporating active charm quarks with controlled discretization errors, reducing an ${\cal O}(12\%)$ systematic error.
-    \item{\bf 2026-2031} Improved measurements employing new approaches, aiming to match/exceed experimental precision by end of Snowmass '21 period. Potential discovery of tension between experiment and Standard Model may lead to new generation of kaon experiments.
+    \item{\bf 2015} First continuum-limit calculation of $A_2$~\cite{Blum:2015ywa}. First {\it ab initio}, physical calculation of $A_0$ and $\varepsilon'$ using G-parity BCs~\cite{RBC:2015gro}.
+    \item{\bf 2020} Improved calculation of $A_0$ and $\varepsilon'$ with G-parity BCs obtained substantially smaller statistical errors 
+     and better control over systematic errors~\cite{RBC:2020kdj}. This, latest result agrees with experiment but has ${\sim}4\times$ 
+     the total error.
+    \item{\bf 2020-2025} Repeat G-parity BC calculation of $A_0$ on finer lattices to reduce/remove ${\cal O}(12\%)$ discretization 
+    systematic error.
+    \item{\bf 2023} First calcultion with periodic boundary conditions (PBC).  Results obtained for physical-quark mass 
+    $\pi\pi$ scattering~\cite{RBC:2023xqv} and $\varepsilon'$~\cite{RBC:2023ynh} with $a^{-1}=1.02$~GeV.  Results agree with 
+    experiment and the G-parity result but with less precision because of fewer configurations and coarser lattice used.
+    \item{\bf 2022-2024} Continue PBC calculations with more configurations and a finer lattice with $a^{-1}=1.38$~GeV to obtain 
+    a more precise result with reduced statistical and discretization errors.
+    \item{\bf 2020-2026} Develop new methods to incorporate electmagnetism and isospin-breaking effects, reducing dominant 
+    ${\cal O}(23\%)$ systematic error.  See E\&M correction project below.
+    \item{\bf 2024-2026} Develop approach to incorporating active charm quarks with controlled discretization errors, reducing 
+    an ${\cal O}(12\%)$ systematic error.
+    \item{\bf 2026-2031} Improved measurements employing new approaches, aiming to match/exceed experimental precision 
+    by end of Snowmass '21 period. Potential discovery of tension between experiment and Standard Model may lead to new 
+    generation of kaon experiments.
 \end{itemize}
 \end{itemize}
+
 
 % Norman Christ/Tom Blum
 \subsection{Direct $CP$ violation in $K\to\pi\pi$ decays using periodic boundary conditions}
@@ -304,22 +314,25 @@
 \end{itemize}
 
 
+
 % Norman Christ
-\subsection{Contribution of E\&M and strong isospin breaking to $\epsilon'$}
+\subsection{Contribution of E\&M and strong isospin breaking to $\varepsilon'$}
 \begin{itemize}
-    \item{\bf Motivation:} Because of the $\Delta I=1/2$ rule, the isospin breaking corrections to the direct CP violating parameter $\epsilon'$ are enhanced by a factor of 20, increasing their usual 1\% scale to potentially 20\% and making the uncertainty in these corrections one of the dominant errors in the current standard model prediction of $\epsilon'$.
-    \item{\bf Long term goal:} Calculate the isospin breaking corrections to $\epsilon'$ to 10\% accuracy removing this as a source of error in the prediction of $\epsilon'$.
-    \item{\bf Method:} The addition of electromagnetism adds substantial barriers to the already challenging lattice calculation of $\epsilon'$:  i) The $I=0$ and $I=2$ $\pi\pi$ final states are mixed and the three-particle $\pi\pi\gamma$ state introduced making this a complicated, multi-channel decay. ii)  Standard lattice formulations of QED have substantial finite-volume errors while the successful lattice methods to compute $\epsilon'$ require that the calculation be performed in a volume of limited size.  iii) Adding photons substantially increases the complexity of the quantities being computed, likely requiring the use of computer generated code.
-\item{\bf Timeline:} \hfill [last updated May 2023]
-\begin{itemize}
-    \item{\bf 2000} KTeV and NA48 measurements of $\epsilon'$
-    \item{\bf 2017} Non-relativistic method to compute the Coulomb contribution to $\epsilon'$ devised~\cite{Christ:2017pze}.
-    \item{\bf 2019-2021} Generalize this non-relativisitic method to one that is fully relativistic~\cite{Christ:2021guf}.
-    \item{\bf 2023-2024} Explore two strategies:  i) Use lattice methods to evaluate the low energy constants needed in a chiral perturbation theory calculation~\cite{Cirigliano:2019cpi} and ii) Extend the Coulomb-gauge approach to include transverse radiation.  Begin a calculation based on the most ;promising method.
-    \item{\bf 2024-2027} Calculation of isospin breaking contributions to $\epsilon'$ to 30\% accuracy.
-    \item{\bf 2027-2030} Calculation of isospin breaking contributions to $\epsilon'$ to 10\% accuracy.
+    \item{\bf Motivation:} Because of the $\Delta I=1/2$ rule, the isospin breaking corrections to the direct CP violating parameter $\varepsilon'$ are enhanced by a factor of 20, increasing their usual 1\% scale to potentially 20\% and making the uncertainty in these corrections one of the dominant errors in the current standard model prediction of $\varepsilon'$.
+    \item{\bf Long term goal:} Calculate the isospin breaking corrections to $\varepsilon'$ to 10\% accuracy removing this as a source of error in the prediction of $\varepsilon'$.
+    \item{\bf Method:} The addition of electromagnetism adds substantial barriers to the already challenging lattice calculation of $\varepsilon'$:  i) The $I=0$ and $I=2$ $\pi\pi$ final states mix and the three-particle $\pi\pi\gamma$ state enters making this a complicated, multi-channel decay. ii)  Standard lattice formulations of QED have substantial finite-volume errors while the successful lattice methods to compute $\varepsilon'$ require that the calculation be performed in a volume of limited size.  iii) Adding photons substantially increases the complexity of the quantities being computed, likely requiring the use of computer-generated code.
+\item{\bf Timeline:}  \hfill [last updated March 2024]
+    \item{\bf 2000} KTeV and NA48 measurements of $\varepsilon'$
+    \item{\bf 2017} Non-relativistic method to compute the Coulomb contribution to $\varepsilon'$ devised~\cite{Christ:2017pze}.
+    \item{\bf 2019-2021} Non-relativisitic method is generalized to one that is fully relativistic~\cite{Christ:2021guf}.
+    \item{\bf 2023-2024} Extend the Coulomb-gauge approach to include transverse radiation.  Estimate the contribution of low-energy $\pi\pi\gamma$ states to $\varepsilon'$.  If this estimate lies below 20\% of expected size of E\&M and isosping breaking effects begin a lattice calculation.
+    \item{\bf 2024-2027} Calculation of isospin breaking contributions to $\varepsilon'$ to 30\% accuracy.
+    \item{\bf 2027-2030} Calculation of isospin breaking contributions to $\varepsilon'$ to 10\% accuracy.
 \end{itemize}
-\end{itemize}
+% Norman Christ
+
+
+
 
 % Norman Christ
 \subsection{Two photon exchange contribution to $K_L\to\mu^+\mu^-$}
@@ -363,32 +376,35 @@
 \end{itemize}
 \end{itemize}
 
+
+% Luchang Jin/Norman Christ
 \subsection{QED correction to pion, kaon, and Omega baryon masses}
 \begin{itemize}
-    \item{\bf Motivation:} Determine the quark masses and lattice spacing with QED corrections. Provide the basis for the QED correction for other quantities, such as hadronic vacuum polarization to muon $g-2$ and meson (semi-)leptonic decay.
-    \item{\bf Long term goal:} Calculate pion, kaon, and Omega baryon mass with the QED corrections to sub-percent level accuracy.
+    \item{\bf Motivation:} Determine the quark masses and lattice spacing with QED corrections. Provide the basis for the QED correction for other quantities, such as hadronic vacuum polarization contribution to muon $g-2$ and meson (semi-)leptonic decay.
+    \item{\bf Long term goal:} Calculate pion, kaon, and Omega baryon mass with QED corrections to per-mil level precision.
     \item{\bf Method:}
-      We can use the infinite volume construction (IVR) method \cite{Feng:2018qpx} to eliminate
-      the $1/L,~1/L^2,~\cdots$ finite volume effects due to the massless photon interactions.
-\item{\bf Timeline:} \hfill [last updated May 2023]
+       Infinite volume reconstruction (IVR) method \cite{Feng:2018qpx} to eliminate
+      the $1/L,~1/L^2,~\cdots$ finite volume effects due to massless photon interactions.
+\item{\bf Timeline:} \hfill [last updated March 2024]
 \begin{itemize}
     \item{\bf 2019} IVR method introduced
-    \item{\bf 2020-2022} Pion mass splitting calculated with the IVR method.
-    \item{\bf 2023-2026} Calculate the QED corrections to the mass of pion, kaon, and Omega baryon with the IVR method to sub-percent accuracy relative to the hadron mass.
+    \item{\bf 2020-2022} Pion mass splitting calculated with the IVR method~\cite{Feng:2021zek}.
+    \item{\bf 2023-2026} Calculate the QED corrections to the mass of pion, kaon, and Omega baryon with the IVR method to sub-percent precision relative to the hadron mass.
 \end{itemize}
 \end{itemize}
 
+% Luchang Jin/Norman Christ
 \subsection{QED correction to pion and kaon (semi-)leptonic decay}
 \begin{itemize}
-    \item{\bf Motivation:} Determine the CKM matrix elements $|V_{ud}|,~|V_{us}|$ from the pion and kaon (semi-)leptonic decay processes.
-    \item{\bf Long term goal:} Calculate pion and kaon decay width with the QED corrections to sub-percent level accuracy that matches or supersedes the current experimental accuracy.
+    \item{\bf Motivation:} Determine the CKM matrix elements $|V_{ud}|,~|V_{us}|$ from pion and kaon (semi-)leptonic decays.
+    \item{\bf Long term goal:} Calculate pion and kaon decay width with QED corrections to sub-percent level accuracy, matching or exceeding the current experimental accuracy.
     \item{\bf Method:}
-      We can use the infinite volume construction (IVR) method \cite{Christ:2023lcc} to eliminate
-      the $1/L,~1/L^2,~\cdots$ finite volume effects due to the massless photon interactions.
-\item{\bf Timeline:} \hfill [last updated May 2023]
+      Infinite volume reconstruction (IVR) method \cite{Christ:2023lcc, Christ:2024xzj} used to eliminate
+      the $1/L,~1/L^2,\,\dots$ finite volume effects due to massless photon interactions.
+\item{\bf Timeline:} \hfill [last updated March 2024]
 \begin{itemize}
     \item{\bf 2019} IVR method introduced.
-    \item{\bf 2020-2023} IVR method applied to the meson (semi-)leptonic decay.
+    \item{\bf 2020-2023} Develop application of IVR method to meson (semi-)leptonic decay.
     \item{\bf 2023-2026} Calculate the QED corrections to the leptonic decay width to an accuracy comparable to or better than the current experimental accuracy.
     \item{\bf 2027-2030} Calculate the QED corrections to the (semi-)leptonic decay width.
 \end{itemize}

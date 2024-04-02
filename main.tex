@@ -1287,66 +1287,72 @@ evaluations of quark OAM; quark mass dependence, excited state effects.
 
 \subsection{Theoretical developments}
 
+% Simon Catterall
 \subsubsection{Lattice supersymmetry}
 \begin{itemize}
-   \item{ \bf Motivation:}
+\item{\bf Motivation:}
 USQCD collaborators are pursuing a program exploring ${\cal N}=4$ super Yang-Mills
-theory. 
- A lattice formulation of this theory retaining (some) exact supersymmetry was formulated
+theory. A lattice formulation of this theory retaining (some) exact supersymmetry was formulated
 more than a decade ago. 
- \item { \bf Long term goal:} Numerical simulations of this theory can explore regimes
+\item {\bf Long term goal:} Numerical simulations of this theory can explore regimes
 that are hard or impossible to study using other methods eg. the strong coupling dynamics
-with a finite number of colors \cite{Catterall:2020lsi}. 
-\item{\bf Timeline:} \hfill [last updated May 2023]
+with a finite number of colors. In particular can use SYM simulations to prove quantum gravity using holography.
+\item{\bf Timeline:} \hfill [last updated March 2024]
    \begin{itemize}
-   \item{\bf 2023} There is now ongoing work using an optimized parallel code based on the 
-MILC codebase. This code is publicly available.
-    \item{\bf 2024} A variety of calculations in the near future -- from computations of the anomalous dimension of the Konishi operator to tests of S duality and explorations of the Coulomb branch of the theory are planned.
+   \item{\bf 2020-21} Optimized parallel code developed based on the 
+   MILC codebase. This code is publicly available and has been used to investigate phase structure at strong coupling \cite{Catterall:2020lsi}.
+   \item{\bf 2022-23} Computations of correlators of Polyakov lines used to calculate static potential. Good agreement with holography \cite{Catterall:2023tmr}.
 \end{itemize}
 \end{itemize}
 
 \subsubsection{Quantum field theories on hyperbolic space.}
 
 \begin{itemize}
-   \item{ \bf Motivation:} USQCD collaborators have also been exploring the phase structure
+   \item{\bf Motivation:} USQCD collaborators have also been exploring the phase structure
 and dynamics of QFTs on tessellations of hyperbolic space. 
-One of the generic take home points from such studies is the fact that the conformal
+
+\item {\bf Long term goal:} Study the influence of gravitational fluctuations in
+such models by allowing the tessellation to fluctuate. Monte Carlo simulations can be
+performed which sample both the space of matter fields and geometries. 
+\item{\bf Timeline:} \hfill [last updated March 2024]
+\begin{itemize}
+\item {\bf 2020-21} One of the generic take home points from such studies is the fact that the conformal
 behavior of the boundary theory for a fixed
 tessellation can be seen at leading order in a strong coupling or
-large mass expansion of the lattice theory~\cite{Asaduzzaman:2020hjl}.
-    \item { \bf Long term goal:} It is also possible to study the influence of gravitational fluctuations in
-such models by allowing the tessellation to fluctuate. It has long been known that
-the integral over metrics in two dimensions can be approximated by performing a sum
-over random triangulations and this fact can be used to explore the influence of
-quantum gravity effects on holography. Indeed Monte Carlo simulations can be
-performed which sample both the space of matter fields and geometries. This is
-also a direction that is being pursued. 
+large mass expansion of the lattice theory. 
+Holography on tessellations of hyperbolic space \cite{Asaduzzaman:2020hjl}.
+\item {\bf 2022-23} Simulations of Ising model on hyperbolic space \cite{Asaduzzaman:2021bcw}.
+\item {\bf 2023-24} Quantum Ising Model on two dimensional AdS space \cite{Asaduzzaman:2023htk}.
+\item {\bf 2023-24} Two dimensional quantum gravity, fermions and holography \cite{Asaduzzaman:2024uue}.
 \end{itemize}
 
+\end{itemize}
 
 \subsubsection{Exact lattice anomalies and new mirror models}
 
 \begin{itemize}
-   \item{ \bf Motivation:} Symmetric mass generation (SMG), a phenomenon where fermion masses are generated  {\it without} breaking any exact lattice
+\item{\bf Motivation:} Symmetric mass generation (SMG), a phenomenon where fermion masses are generated  {\it without} breaking any exact lattice
 symmetries is a relatively new phenomenon, studied extensively in condensed matter systems and in 4 dimensions as well \cite{Butt:2021koj,Hasenfratz:2022qan}. It is
 now understood that one necessary condition for SMG to occur is that all 
 't Hooft anomalies of the theory must cancel. In the case of
 staggered fermions, these anomalies are discrete and gravitational in origin and hence
 had not been considered previously \cite{Catterall:2022jky}. 
-   \item { \bf Long term goal:} Construct mirror models  SMG to gap
-out say the even forms of a massless K\"{a}hler-Dirac field. That way one ends up with a low energy
-theory in flat space that
-consists 
-of a set of Weyl fermions transforming in the
-$(4,2,1)_L\oplus(\bar 4, 1,2)_L$  representations of a global $SU(4)\times SU(2)\times SU(2)$ symmetry. This is just the field content of the Pati-Salam model. Thus it seems that the cancellation of gravitational
-anomalies of lattice K\"{a}hler-Dirac field fermions can yield mirror models whose 
-continuum limit contains the matter content and global symmetries
-of specific chiral gauge theories. Whether these global
-symmetries can truly be gauged is an open question. 
-Currently code is being developed to explore these questions 
-in more detail.
+\item {\bf Long term goal:} Embed Weyl fields into reduced K\"{a}hler-Dirac/staggered fields.
+Construct mirror models for latter using SMG to gap
+out mirror fermions. Map to staggered fermions and determine whether 
+continuum limit yields a chiral gauge theory. 
+\item {\bf Timeline:}\hfill [last updated March 2024]
+\begin{itemize}
+    \item {\bf 2023-24} Lattice regularization of reduced K\"{a}hler-Dirac fields and
+    connection to chiral fermions \cite{Catterall:2023nww}
+    \item {\bf 2024-25} SMG for gauged sp(4) model. Simulations in progress.
+    \item {\bf 2024-25} Gauging staggered fermion shift symmetries. In progress.
+    
+\end{itemize}
 \end{itemize}
 
+
+% Richard Brower
 \subsubsection{Lattice Field Theory on Curved Manifolds}
 \begin{itemize}
    \item{ \bf Motivation:}

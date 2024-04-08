@@ -21,6 +21,7 @@
 .cmsy-6{font-size:50%;}
 .cmr-17x-x-120{font-size:170%;}
 .cmr-12x-x-120{font-size:120%;}
+.cmtt-12{font-family: monospace,monospace;}
 .cmti-12{ font-style: italic;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
